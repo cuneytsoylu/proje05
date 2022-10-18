@@ -605,16 +605,6 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
     /*US_11(608-658 satır)*/
 
 
@@ -623,12 +613,6 @@ public class SpendinGoodPage {
 
     @FindBy(xpath ="//*[@id='piecetype']")
     public WebElement piecetype;
-
-
-
-
-
-
 
 
 
