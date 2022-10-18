@@ -605,16 +605,6 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
     /*US_11(608-658 satır)*/
 
 
@@ -623,12 +613,6 @@ public class SpendinGoodPage {
 
     @FindBy(xpath ="//*[@id='piecetype']")
     public WebElement piecetype;
-
-
-
-
-
-
 
 
 
@@ -911,22 +895,6 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*US_17(914-964 satır)*/
     @FindBy(xpath = "//*[text()='Sign In '] ")
     public WebElement SignIn;
@@ -944,12 +912,12 @@ public class SpendinGoodPage {
     public WebElement editYourBilling;
     @FindBy (xpath = "//*[@id='billing_first_name']")
     public WebElement billingName;
-
-
-
-
-
-
+    @FindBy (xpath = "//*[@id='select2-billing_country-container']")
+    public WebElement countryRegion;
+    @FindBy (xpath = "(//*[text()='Belgium'])[3]")
+    public WebElement belgium;
+    @FindBy (xpath = "//*[text()='Save address']")
+    public WebElement saveAddress;
 
 
 
