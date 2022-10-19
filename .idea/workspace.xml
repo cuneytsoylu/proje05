@@ -112,8 +112,9 @@
       <list>
         <item itemvalue="TestNG.TC_001.testcase01" />
         <item itemvalue="TestNG.TC_001" />
-        <item itemvalue="TestNG.TC_001" />
         <item itemvalue="TestNG.TC_001.testcase01" />
+        <item itemvalue="TestNG.TC_001" />
+        <item itemvalue="TestNG.TC_001" />
       </list>
     </recent_temporary>
   </component>
