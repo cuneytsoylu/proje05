@@ -22,7 +22,7 @@ public class TC_001 extends TestBaseRapor {
         reusable.waitFor(2);
         spendinGoodPage.myAccount.click();
         extentTest.info("My Account butonuna tiklandi");
-
+reusable.wait(2);
 
     }
 }
