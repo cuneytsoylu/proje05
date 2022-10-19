@@ -1,0 +1,113 @@
+Index: src/test/java/tests/US_17/TC_002.java
+===================================================================
+diff --git a/src/test/java/tests/US_17/TC_002.java b/src/test/java/tests/US_17/TC_002.java
+deleted file mode 100644
+--- a/src/test/java/tests/US_17/TC_002.java	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
++++ /dev/null	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
+@@ -1,29 +0,0 @@
+-package tests.US_17;
+-
+-import org.openqa.selenium.Keys;
+-import org.openqa.selenium.interactions.Actions;
+-import org.testng.annotations.Test;
+-import page.SpendinGoodPage;
+-import utilities.ConfigReader;
+-import utilities.Driver;
+-import utilities.ReusableMethods;
+-public class TC_002 {
+-    SpendinGoodPage spend = new SpendinGoodPage();
+-    Actions action = new Actions(Driver.getDriver());
+-    ReusableMethods reusable= new ReusableMethods();
+-    @Test  public void shippingAddress(){
+-        Driver.getDriver().get("https://spendinggood.com/");
+-        spend.SignIn.click();
+-        spend.userNameBox.sendKeys(ConfigReader.getProperty("selcukEmail"));
+-        spend.passwordBox.sendKeys(ConfigReader.getProperty("selcukPassword"));
+-        spend.SignInButton.click();
+-        reusable.waitFor(2);
+-        spend.myAccount.click();
+-        spend.shippingAndBillingAddresses.click();
+-        action.sendKeys(Keys.PAGE_DOWN).perform();
+-        reusable.waitFor(2);
+-
+-
+-
+-    }
+-}
+Index: src/test/java/tests/US_17/TC_001.java
+===================================================================
+diff --git a/src/test/java/tests/US_17/TC_001.java b/src/test/java/tests/US_17/TC_001.java
+deleted file mode 100644
+--- a/src/test/java/tests/US_17/TC_001.java	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
++++ /dev/null	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
+@@ -1,46 +0,0 @@
+-package tests.US_17;
+-
+-import org.openqa.selenium.Keys;
+-import org.openqa.selenium.interactions.Actions;
+-import org.testng.annotations.Test;
+-import page.SpendinGoodPage;
+-import utilities.ConfigReader;
+-import utilities.Driver;
+-import utilities.ReusableMethods;
+-
+-public class TC_001 {
+-    SpendinGoodPage spend = new SpendinGoodPage();
+-    Actions action = new Actions(Driver.getDriver());
+-    ReusableMethods reusable= new ReusableMethods();
+-
+-    @Test
+-    public void billingAddress() throws InterruptedException {
+-        Driver.getDriver().get("https://spendinggood.com/");
+-        spend.SignIn.click();
+-        spend.userNameBox.sendKeys(ConfigReader.getProperty("selcukEmail"));
+-        spend.passwordBox.sendKeys(ConfigReader.getProperty("selcukPassword"));
+-        spend.SignInButton.click();
+-        reusable.waitFor(2);
+-        spend.myAccount.click();
+-        spend.shippingAndBillingAddresses.click();
+-        action.sendKeys(Keys.PAGE_DOWN).perform();
+-        reusable.waitFor(2);
+-        spend.editYourBilling.click();
+-        spend.billingName.sendKeys("Kamil");
+-        action.sendKeys(Keys.TAB).sendKeys("Yilmaz").sendKeys(Keys.TAB)
+-                .sendKeys("Borval").perform();
+-        spend.countryRegion.click();
+-        spend.belgium.click();
+-        action.sendKeys(Keys.TAB,"Bargiesstraat").sendKeys(Keys.TAB,"40")
+-                .sendKeys(Keys.TAB,"8900").sendKeys(Keys.TAB,"Leper")
+-                .sendKeys(Keys.TAB,"053593862728")
+-                .sendKeys(Keys.TAB,"borval54@yandex.com").perform();
+-        action.sendKeys(Keys.PAGE_DOWN).perform();
+-        reusable.waitFor(2);
+-        spend.saveAddress.click();
+-
+-
+-
+-
+-    }
+-}
+\ No newline at end of file
+Index: src/test/java/tests/US_16/TC_001.java
+===================================================================
+diff --git a/src/test/java/tests/US_16/TC_001.java b/src/test/java/tests/US_16/TC_001.java
+deleted file mode 100644
+--- a/src/test/java/tests/US_16/TC_001.java	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
++++ /dev/null	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
+@@ -1,5 +0,0 @@
+-package tests.US_16;
+-
+-public class TC_001 {
+-
+-}
+Index: src/test/java/tests/US_17/TC_003.java
+===================================================================
+diff --git a/src/test/java/tests/US_17/TC_003.java b/src/test/java/tests/US_17/TC_003.java
+deleted file mode 100644
+--- a/src/test/java/tests/US_17/TC_003.java	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
++++ /dev/null	(revision 79ca26b173efa31d1917049a3e1b9f1108cf13e3)
+@@ -1,4 +0,0 @@
+-package tests.US_17;
+-
+-public class TC_003 {
+-}
