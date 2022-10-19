@@ -279,13 +279,13 @@ public class SpendinGoodPage {
     @FindBy (xpath ="//*[@style='width: 98px;']")
     public WebElement status;
 
-    @FindBy (xpath ="//*[@style='width: 59px;']")
+    @FindBy (xpath ="(//*[@class='sorting_disabled'])[3]")
     public WebElement stock;
 
-    @FindBy (xpath ="//*[@style='width: 51px;']")
+    @FindBy (xpath ="(//*[@class='sorting'])[2]")
     public WebElement price;
 
-    @FindBy (xpath ="//*[@class='sorting_desc']")
+    @FindBy (xpath ="(//*[@class='sorting'])[4]")
     public WebElement date;
 
     @FindBy (xpath ="//*[text()='Add New']")
@@ -302,9 +302,15 @@ public class SpendinGoodPage {
 
     @FindBy (xpath ="//*[@id='regular_price']")
     public WebElement priceMiktar;
+  @FindBy (xpath ="//*[@id='featured_img_display']")
+  public WebElement urunIlkResimEkleme;
 
-    @FindBy (xpath ="//*[@id='featured_img_display']")
-    public WebElement urunIlkResimEkleme;
+  @FindBy (xpath ="//*[@id='menu-item-browse']")
+  public WebElement mediaLibrary;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[1]")
+  public WebElement eklenecekResim;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[2]")
+  public WebElement eklenecekIkinciResim;
 
     @FindBy (xpath ="//*[@id='__wp-uploader-id-1']")
     public WebElement selectFiles;
@@ -328,12 +334,6 @@ public class SpendinGoodPage {
     public WebElement ikinciResimGorunurluk;
     @FindBy (xpath ="//*[@class='wcfm-message wcfm-error']")
     public WebElement hataYazisi;
-
-
-
-
-
-
 
 
 
