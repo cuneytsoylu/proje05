@@ -708,9 +708,10 @@ public class SpendinGoodPage {
 
 
     /*US_13(710-760 satır)*/
-
-
-
+@FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
+public WebElement couponButton;
+@FindBy(xpath = "//*[text()=\"Add New\"]")
+public WebElement couponAddNewButton;
 
 
 
@@ -859,8 +860,7 @@ public class SpendinGoodPage {
 
 
 
-
-    /*US_16(863-913 satır)*/
+  /*US_16(863-913 satır)*/
 
 
 

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
+    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="19102022">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01/TC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01/TC_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +69,38 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\page" />
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ramazan\IdeaProjects\project5" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001">
+  <component name="RunManager" selected="TestNG.C:/Users/Ramazan/IdeaProjects/project5/src/topluCalistirma.xml">
+    <configuration name="C:/Users/Ramazan/IdeaProjects/project5/src/topluCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project5" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/topluCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_13" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_13.TC_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project5" />
       <extension name="coverage">
@@ -77,6 +112,24 @@
       <option name="PACKAGE_NAME" value="tests.US_12" />
       <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_001.TC001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_13" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_13.TC_001" />
+      <option name="METHOD_NAME" value="TC001" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,8 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001" />
+        <item itemvalue="TestNG.C:/Users/Ramazan/IdeaProjects/project5/src/topluCalistirma.xml" />
+        <item itemvalue="TestNG.TC_001.TC001" />
         <item itemvalue="TestNG.TC_001.testcase01" />
+        <item itemvalue="TestNG.TC_001 (1)" />
+        <item itemvalue="TestNG.TC_001" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666021283262</updated>
     </task>
+    <task id="LOCAL-00001" summary="19102022">
+      <created>1666178282266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666178282266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +193,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="19102022" />
+    <option name="LAST_COMMIT_MESSAGE" value="19102022" />
   </component>
 </project>
