@@ -758,8 +758,7 @@ public WebElement couponAddNewButton;
 
 
 
-
-    /*US_14(761-811 satır)*/
+/*US_14(761-811 satır)*/
 
 
 
@@ -860,7 +859,24 @@ public WebElement couponAddNewButton;
 
 
 
+
   /*US_16(863-913 satır)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
