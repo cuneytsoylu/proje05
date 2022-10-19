@@ -402,26 +402,26 @@ public class SpendinGoodPage {
 
 
     /*US_07(404-454 satır)*/
+    @FindBy (xpath ="//*[@value='35']")
+    public WebElement elegantAutoGroup;
 
+    @FindBy (xpath ="//*[@value='41']")
+    public WebElement greenGrace;
 
+    @FindBy (xpath ="//*[@value='46']")
+    public WebElement nodeJs;
 
+    @FindBy (xpath ="//*[@value='47']")
+    public WebElement ns8;
 
+    @FindBy (xpath ="//*[@value='50']")
+    public WebElement red;
 
+    @FindBy (xpath ="//*[@value='52']")
+    public WebElement skySuiteTech;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @FindBy (xpath ="//*[@value='55']")
+    public WebElement sterling;
 
 
 
