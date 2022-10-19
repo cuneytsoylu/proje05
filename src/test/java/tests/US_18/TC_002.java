@@ -1,2 +1,4 @@
-package tests.US_18;public class TC_002 {
+package tests.US_18;
+
+public class TC_002 {
 }
