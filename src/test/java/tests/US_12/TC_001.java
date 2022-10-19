@@ -9,7 +9,7 @@ public class TC_001 extends TestBaseRapor {
     ReusableMethods reusable = new ReusableMethods();
 
     @Test
-    public void testcase01() throws InterruptedException {
+    public void testcase01()  {
         extentTest = extentReports.createTest("Siparis Urunleri Test", "siparisler goruntulenip,siralandi");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");

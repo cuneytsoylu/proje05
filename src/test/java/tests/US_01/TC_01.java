@@ -9,6 +9,7 @@ import utilities.Driver;
 import utilities.TestBaseRapor;
 
 public class TC_01 extends TestBaseRapor {
+
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     Actions actions = new Actions(Driver.getDriver());
     @Test
