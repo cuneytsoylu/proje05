@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_19_2022_12_04_PM_[Changes]1" date="1666170296194" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_12_04_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10/19/2022 12:04 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".gitignore" />
+    <option name="AFTER_PATH" value=".idea/.gitignore" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_12_04_PM_[Changes]1/.gitignore" />
+  </binary>
+</changelist>
