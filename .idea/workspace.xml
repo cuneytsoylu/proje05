@@ -8,7 +8,6 @@
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="17.10.2022">
       <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-=======
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
 
       <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
@@ -17,11 +16,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_17/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_17/TC_001.java" afterDir="false" />
-=======
 
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
 
@@ -62,17 +60,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
 
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-=======
+
 
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-=======
+
 
     "last_opened_file_path": "C:/Users/Ramazan/IdeaProjects/project5/src/test/java/page",
 
@@ -150,6 +147,6 @@
     <MESSAGE value="17.10.2022" />
     <option name="LAST_COMMIT_MESSAGE" value="17.10.2022" />
   </component>
-=======
+
 
 </project>
