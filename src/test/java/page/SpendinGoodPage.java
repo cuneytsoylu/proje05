@@ -914,26 +914,34 @@ public WebElement couponAddNewButton;
     /*US_17(914-964 satır)*/
     @FindBy(xpath = "//*[text()='Sign In '] ")
     public WebElement SignIn;
-    @FindBy (xpath = "//*[@id='username']")
-    public WebElement userNameBox;
-    @FindBy (xpath = "//*[@id='password']")
-    public WebElement passwordBox;
-    @FindBy (xpath = "(//*[text()='Sign In'])[2]")
-    public WebElement SignInButton;
-    @FindBy(xpath = "(//*[text()='My Account'])[1]")
-    public WebElement myAccount;
-    @FindBy (xpath = "//*[text()='shipping and billing addresses']")
-    public WebElement shippingAndBillingAddresses;
-    @FindBy (xpath = "//*[text()='Edit Your Billing Address']")
-    public WebElement editYourBilling;
-    @FindBy (xpath = "//*[@id='billing_first_name']")
-    public WebElement billingName;
-    @FindBy (xpath = "//*[@id='select2-billing_country-container']")
-    public WebElement countryRegion;
-    @FindBy (xpath = "(//*[text()='Belgium'])[3]")
-    public WebElement belgium;
-    @FindBy (xpath = "//*[text()='Save address']")
-    public WebElement saveAddress;
+  @FindBy (xpath = "//*[@id='username']")
+  public WebElement userNameBox;
+  @FindBy (xpath = "//*[@id='password']")
+  public WebElement passwordBox;
+  @FindBy (xpath = "(//*[text()='Sign In'])[2]")
+  public WebElement SignInButton;
+  @FindBy(xpath = "(//*[text()='My Account'])[1]")
+  public WebElement myAccount;
+  @FindBy (xpath = "//*[text()='shipping and billing addresses']")
+  public WebElement shippingAndBillingAddresses;
+  @FindBy (xpath = "//*[text()='Edit Your Billing Address']")
+  public WebElement editYourBilling;
+  @FindBy (xpath = "//*[@id='billing_first_name']")
+  public WebElement billingFirstName;
+  @FindBy (xpath = "//*[@id='select2-billing_country-container']")
+  public WebElement billingCountryRegion;
+  @FindBy (xpath = "(//*[text()='Belgium'])[3]")
+  public WebElement belgium;
+  @FindBy (xpath = "//*[text()='Save address']")
+  public WebElement saveAddress;
+  @FindBy (xpath = "//*[text()='Edit Your Shipping Address']")
+  public WebElement editYourShipping;
+  @FindBy (xpath = "//*[@id='shipping_first_name']")
+  public WebElement shippingFirstName;
+  @FindBy (id = "select2-shipping_country-container")
+  public WebElement shippingCountryContainer;
+  @FindBy (xpath = "(//*[text()='Belgium'])[3]")
+  public WebElement shippingBelgium;
 
 
 
@@ -954,15 +962,7 @@ public WebElement couponAddNewButton;
 
 
 
-
-
-
-
-
-
-
-
-    /*US_18(965-1015 satır)*/
+  /*US_18(965-1015 satır)*/
 
 
 
