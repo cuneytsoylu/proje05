@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_16/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_16/TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01/TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01/TC_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_16/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_16/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +69,7 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_004">
+  <component name="RunManager" selected="TestNG.TC_001.maneger">
     <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
@@ -103,17 +87,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
+    <configuration name="TC_001.maneger" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_12.*" />
+          <option name="PATTERN" value="tests.US_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_12" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.US_16" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_16.TC_001" />
+      <option name="METHOD_NAME" value="maneger" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -174,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC_001.maneger" />
         <item itemvalue="TestNG.TC_004" />
         <item itemvalue="TestNG.TC_003" />
         <item itemvalue="TestNG.TC_002.testCase01" />
         <item itemvalue="TestNG.TC_001 (1)" />
-        <item itemvalue="TestNG.TC_001" />
       </list>
     </recent_temporary>
   </component>
