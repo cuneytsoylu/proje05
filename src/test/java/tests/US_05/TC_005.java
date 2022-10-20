@@ -40,24 +40,27 @@ import utilities.TestBaseRapor;
             actions.sendKeys(Keys.PAGE_DOWN).perform();
             extentTest.info("addNew butonuna tiklandi");
 
-
             ReusableMethods.waitFor(2);
             WebElement frame = Driver.getDriver().findElement(By.xpath("//iframe[@id='excerpt_ifr']"));
             frame.click();
+            extentTest.info("Short Description bolumune tiklandi");
             Driver.getDriver().switchTo().frame(frame);
             WebElement text = Driver.getDriver().findElement(By.xpath("//*[@id=\"tinymce\"]/p"));
             text.sendKeys("cerceve");
             Driver.getDriver().switchTo().defaultContent();
+            extentTest.info("Urun ile ilgili kısa bilgi girildi");
             actions.sendKeys(Keys.PAGE_DOWN).perform();
 
             ReusableMethods.waitFor(3);
             WebElement frame2 = Driver.getDriver().findElement(By.xpath("//iframe[@id='description_ifr']"));
             JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
             js.executeScript("arguments[0].click();",frame2);
+            extentTest.info("Description bolumune tiklandi");
 
             Driver.getDriver().switchTo().frame(frame2);
             WebElement text2 = Driver.getDriver().findElement(By.xpath("//*[@id=\"tinymce\"]/p"));
             text2.sendKeys("kahverengi,orta boy cerceve:)");
+            extentTest.info("Urun ile ilgili bilgi girildi");
             ReusableMethods.waitFor(2);
 
 
