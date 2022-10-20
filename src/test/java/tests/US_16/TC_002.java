@@ -3,11 +3,10 @@ package tests.US_16;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import page.SpendinGoodPage;
-import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class TC_001 {
+public class TC_002 {
     SpendinGoodPage spend = new SpendinGoodPage();
     Actions action = new Actions(Driver.getDriver());
     ReusableMethods reusable = new ReusableMethods();
