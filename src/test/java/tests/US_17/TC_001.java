@@ -26,10 +26,11 @@ public class TC_001 {
         action.sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
         spend.editYourBilling.click();
-        spend.billingName.sendKeys("Kamil");
+        spend.billingFirstName.clear();
+        spend.billingFirstName.sendKeys("Kamil");
         action.sendKeys(Keys.TAB).sendKeys("Yilmaz").sendKeys(Keys.TAB)
                 .sendKeys("Borval").perform();
-        spend.countryRegion.click();
+        spend.billingCountryRegion.click();
         spend.belgium.click();
         action.sendKeys(Keys.TAB,"Bargiesstraat").sendKeys(Keys.TAB,"40")
                 .sendKeys(Keys.TAB,"8900").sendKeys(Keys.TAB,"Leper")
