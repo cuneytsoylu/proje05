@@ -1,8 +1,10 @@
 package tests.US_05;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -20,7 +22,7 @@ public class TC_004 extends TestBaseRapor {
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void testCase01() {
+    public void testCase01() throws InterruptedException {
         extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -42,28 +44,28 @@ public class TC_004 extends TestBaseRapor {
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");
+
         spendinGoodPage.urunIlkResimEkleme.click();
-        extentTest.info("urun ilk resim ekleme butonuna tiklandi");
-        reusable.waitFor(2);
+        extentTest.info("ilk urun ekleme bolumune tiklandi");
         spendinGoodPage.mediaLibrary.click();
-        extentTest.info("MediaLibrary butonuna tiklandi");
+        extentTest.info("mediaLibrary butonuna tiklandi");
         spendinGoodPage.eklenecekResim.click();
-        extentTest.info("eklenecek urun resmi eklendi");
+        extentTest.info("eklenecek ilk resme tiklandi");
         spendinGoodPage.select.click();
-        extentTest.info("select butonuna tiklandi");
-        reusable.waitFor(2);
-        spendinGoodPage.urunIkinciResimEkleme.click();
-        extentTest.info("urun ikinci resim ekleme butonuna tiklandi");
-        reusable.waitFor(2);
-        //JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        //js.executeScript("arguments[0].click();", pearly.smallImage);
-        spendinGoodPage.eklenecekIkinciResim.click();
-        extentTest.info("eklenecek ikinci urun resmi eklendi");
+        extentTest.info("Select butonuna tiklandi");
+
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].click();", spendinGoodPage.urunIkinciResimEkleme);
+        Thread.sleep(2000);
+        extentTest.info("Ikinci urun ekleme bolumune tiklandi");
+        js.executeScript("arguments[0].click();", spendinGoodPage.eklenecekIkinciResim);
+        Thread.sleep(1000);
+        extentTest.info("Ikinci urun eklendi");
         spendinGoodPage.addToGallery.click();
-        reusable.waitFor(2);
-        Assert.assertTrue(spendinGoodPage.urunIlkResimEkleme.isDisplayed());
-        Assert.assertTrue(spendinGoodPage.urunIkinciResimEkleme.isDisplayed());
-        extentTest.info("resimlerin eklendigi dogrulandi");
+        Assert.assertTrue(spendinGoodPage.urunIlkResimEkleme.isDisplayed() && spendinGoodPage.urunIkinciResimEkleme.isDisplayed());
+        extentTest.info("eklenen iki urunun gorunurlugu dogrulandi");
+
+
 
 
 

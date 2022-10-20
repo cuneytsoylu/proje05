@@ -309,7 +309,7 @@ public class SpendinGoodPage {
   public WebElement mediaLibrary;
   @FindBy (xpath ="(//*[@class='thumbnail'])[1]")
   public WebElement eklenecekResim;
-  @FindBy (xpath ="(//*[@class='thumbnail'])[2]")
+  @FindBy (xpath ="(//*[@class='thumbnail'])[16]")
   public WebElement eklenecekIkinciResim;
 
     @FindBy (xpath ="//*[@id='__wp-uploader-id-1']")
