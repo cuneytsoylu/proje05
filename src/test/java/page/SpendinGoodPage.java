@@ -1198,11 +1198,37 @@ public WebElement couponAddNewButton;
 
   @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/span/ins/span/bdi")
   public WebElement mostExpensive;
-  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[10]/div/div/span/ins/span/bdi")
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/div/div")
   public WebElement cheapest;
 
   @FindBy(xpath = "//span[@class='price']")
   public List<WebElement> DailyDealsAllPricesList;
+
+  @FindBy(xpath = "//button[.='Sign In']")
+  public WebElement signInEnter;
+
+    @FindBy(xpath = "//*[text()='Store Manager']")
+    public WebElement storeManagerUS20;
+
+    @FindBy(xpath = "//table//tr//td[3]")
+    public List<WebElement> tableAllCommentList;
+
+    @FindBy(xpath = "//table//tr//td[4]")
+    public List<WebElement> tableAllRatingList;
+
+    @FindBy(xpath = "//table//tr//td[6]")
+    public List<WebElement> tableAllDateList;
+    @FindBy(xpath = "(//a[@href='https://spendinggood.com/store-manager/reviews/'])[1]")
+    public WebElement reviews;
+
+    @FindBy(css = "#add_new_product_dashboard")
+    public WebElement productReviews;
+
+    @FindBy(xpath = "//tfoot//th")
+    public List<WebElement> customerInfoList;
+
+    @FindBy(xpath = "//span[@class='price']")
+    public List<WebElement> visibleElementOnMainMenu;
 
 
 

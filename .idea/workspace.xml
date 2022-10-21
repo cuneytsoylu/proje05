@@ -6,6 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_20/TC_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_22/TC_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_22/TC_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10/TC_001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10/TC_002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11/TC_001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11/TC_002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11/TC_003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_20/TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_20/TC_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_22/TC_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,38 +86,22 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.US_20" />
       <recent name="tests.US_22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001.maneger">
-    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC_04.test1">
+    <configuration name="TC_01.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_001" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_001.maneger" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_16" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_16.TC_001" />
-      <option name="METHOD_NAME" value="maneger" />
+      <option name="PACKAGE_NAME" value="tests.US_22" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_01" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,17 +109,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_002.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_01.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_002" />
-      <option name="METHOD_NAME" value="testCase01" />
+      <option name="PACKAGE_NAME" value="tests.US_20" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_20.TC_01" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,34 +127,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_003" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_02.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_003" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.US_22" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_02" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_004" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_03.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_004" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.US_22" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_03" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_04.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_22" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_04" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001.maneger" />
-        <item itemvalue="TestNG.TC_004" />
-        <item itemvalue="TestNG.TC_003" />
-        <item itemvalue="TestNG.TC_002.testCase01" />
-        <item itemvalue="TestNG.TC_001 (1)" />
+        <item itemvalue="TestNG.TC_04.test1" />
+        <item itemvalue="TestNG.TC_03.test1" />
+        <item itemvalue="TestNG.TC_02.test1" />
+        <item itemvalue="TestNG.TC_01.test1" />
+        <item itemvalue="TestNG.TC_01.test1 (1)" />
       </list>
     </recent_temporary>
   </component>

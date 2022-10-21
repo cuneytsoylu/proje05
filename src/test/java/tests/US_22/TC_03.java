@@ -41,7 +41,7 @@ public class TC_03 extends TestBaseRapor {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollBy(0,1200)", "");
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.visibilityOf(spendinGoodPage.cheapest));
+        wait.until(ExpectedConditions.invisibilityOfAllElements(spendinGoodPage.signInEnter, spendinGoodPage.Email));
 
         extentTest.info("fiyatlarin dusukten yuksege siralandigini dogrular");
         spendinGoodPage.DailyDealsAllPricesList.forEach(t -> System.out.println(t.getText()));
