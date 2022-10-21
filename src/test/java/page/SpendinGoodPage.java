@@ -279,13 +279,13 @@ public class SpendinGoodPage {
     @FindBy (xpath ="//*[@style='width: 98px;']")
     public WebElement status;
 
-    @FindBy (xpath ="//*[@style='width: 59px;']")
+    @FindBy (xpath ="(//*[@class='sorting_disabled'])[3]")
     public WebElement stock;
 
-    @FindBy (xpath ="//*[@style='width: 51px;']")
+    @FindBy (xpath ="(//*[@class='sorting'])[2]")
     public WebElement price;
 
-    @FindBy (xpath ="//*[@class='sorting_desc']")
+    @FindBy (xpath ="(//*[@class='sorting'])[4]")
     public WebElement date;
 
     @FindBy (xpath ="//*[text()='Add New']")
@@ -302,9 +302,15 @@ public class SpendinGoodPage {
 
     @FindBy (xpath ="//*[@id='regular_price']")
     public WebElement priceMiktar;
+  @FindBy (xpath ="//*[@id='featured_img_display']")
+  public WebElement urunIlkResimEkleme;
 
-    @FindBy (xpath ="//*[@id='featured_img_display']")
-    public WebElement urunIlkResimEkleme;
+  @FindBy (xpath ="//*[@id='menu-item-browse']")
+  public WebElement mediaLibrary;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[1]")
+  public WebElement eklenecekResim;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[16]")
+  public WebElement eklenecekIkinciResim;
 
     @FindBy (xpath ="//*[@id='__wp-uploader-id-1']")
     public WebElement selectFiles;
@@ -328,12 +334,6 @@ public class SpendinGoodPage {
     public WebElement ikinciResimGorunurluk;
     @FindBy (xpath ="//*[@class='wcfm-message wcfm-error']")
     public WebElement hataYazisi;
-
-
-
-
-
-
 
 
 
@@ -708,10 +708,24 @@ public class SpendinGoodPage {
 
 
     /*US_13(710-760 satır)*/
-@FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
-public WebElement couponButton;
-@FindBy(xpath = "//*[text()=\"Add New\"]")
-public WebElement couponAddNewButton;
+    @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
+    public WebElement couponButton;
+  @FindBy(xpath = "//*[text()=\"Add New\"]")
+  public WebElement couponAddNewButton;
+  @FindBy(xpath = "//input[@id=\"title\"]")
+  public WebElement codeText;
+  @FindBy(xpath = "//textarea[@id='description']")
+  public WebElement descriptionText;
+  @FindBy(xpath = "//select[@id=\"discount_type\"]")
+  public WebElement discountType;
+  @FindBy(xpath = "//input[@id='coupon_amount']")
+  public WebElement couponAmount;
+  @FindBy(xpath = "//input[@id='expiry_date']")
+  public WebElement couponExpiryDate;
+  @FindBy(xpath = "//input[@id='free_shipping']")
+  public WebElement allowFreeShipping;
+  @FindBy(xpath = "//input[@id='show_on_store']")
+  public WebElement showOnStore;
 
 
 
@@ -744,6 +758,23 @@ public WebElement couponAddNewButton;
 
 
 
+  /*US_14(761-811 satır)*/
+  @FindBy(xpath = "//input[@id='individual_use']")
+  public WebElement individualUseOnly;
+  @FindBy(xpath = "//input[@id='exclude_sale_items']")
+  public WebElement excludeSaleItems;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[1]")
+  public WebElement productsTextbox;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[2]")
+  public WebElement excludeProductsTextbox;
+  @FindBy(xpath = "(//li[@role='option'])[1]")
+  public WebElement productsTextboxClick;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[3]")
+  public WebElement productCategoriesTextbox;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[4]")
+  public WebElement excludeCategoriesTextbox;
+  @FindBy(xpath = "//input[@id='customer_email']")
+  public  WebElement emailRestrictions;
 
 
 
@@ -758,7 +789,6 @@ public WebElement couponAddNewButton;
 
 
 
-/*US_14(761-811 satır)*/
 
 
 
@@ -779,37 +809,7 @@ public WebElement couponAddNewButton;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*US_15(812-862 satır)*/
+  /*US_15(812-862 satır)*/
 
 
 
@@ -863,7 +863,11 @@ public WebElement couponAddNewButton;
   /*US_16(863-913 satır)*/
 
 
+  @FindBy(xpath ="//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--wcfm-store-manager']")
+  public WebElement StoreManager;
 
+  @FindBy(xpath ="(//*[@class='text'])[7]")
+       public WebElement Customers;
 
 
 
