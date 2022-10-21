@@ -23,6 +23,5 @@ public class TC_001 extends TestBaseRapor {
         spendinGoodPage.myAccount.click();
         extentTest.info("My Account butonuna tiklandi");
 
-
     }
 }
