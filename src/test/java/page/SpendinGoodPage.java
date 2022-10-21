@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -1173,6 +1175,34 @@ public WebElement couponAddNewButton;
     /*US_22(1169- satır)*/
 
 
+
+  @FindBy(xpath = "//a[text()='Daily Deals']")
+  public WebElement dailyDeals;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/figure/a/img[2]")
+  public WebElement dailyDealsfirstItem;
+
+  @FindBy(xpath = "//*[text()='Sort By :']")
+  public WebElement sortBy;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']//option")
+  public List<WebElement> sortBySelectDDMList;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']")
+  public WebElement ddm;
+
+  @FindBy(css = ".spendingGoodUrl")
+  public List<WebElement> DailyDealsAllProductList;
+
+  @FindBy(xpath = "no location")
+  public WebElement viewAll;
+
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/span/ins/span/bdi")
+  public WebElement mostExpensive;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[10]/div/div/span/ins/span/bdi")
+  public WebElement cheapest;
+
+  @FindBy(xpath = "//span[@class='price']")
+  public List<WebElement> DailyDealsAllPricesList;
 
 
 
