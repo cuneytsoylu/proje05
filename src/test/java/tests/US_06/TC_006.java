@@ -1,11 +1,9 @@
 package tests.US_06;
 
 
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-
 import org.testng.annotations.Test;
 import page.SpendinGoodPage;
 import utilities.ConfigReader;
