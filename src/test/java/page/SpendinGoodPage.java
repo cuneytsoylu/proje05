@@ -708,10 +708,24 @@ public class SpendinGoodPage {
 
 
     /*US_13(710-760 satır)*/
-@FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
-public WebElement couponButton;
-@FindBy(xpath = "//*[text()=\"Add New\"]")
-public WebElement couponAddNewButton;
+    @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
+    public WebElement couponButton;
+  @FindBy(xpath = "//*[text()=\"Add New\"]")
+  public WebElement couponAddNewButton;
+  @FindBy(xpath = "//input[@id=\"title\"]")
+  public WebElement codeText;
+  @FindBy(xpath = "//textarea[@id='description']")
+  public WebElement descriptionText;
+  @FindBy(xpath = "//select[@id=\"discount_type\"]")
+  public WebElement discountType;
+  @FindBy(xpath = "//input[@id='coupon_amount']")
+  public WebElement couponAmount;
+  @FindBy(xpath = "//input[@id='expiry_date']")
+  public WebElement couponExpiryDate;
+  @FindBy(xpath = "//input[@id='free_shipping']")
+  public WebElement allowFreeShipping;
+  @FindBy(xpath = "//input[@id='show_on_store']")
+  public WebElement showOnStore;
 
 
 
@@ -744,6 +758,23 @@ public WebElement couponAddNewButton;
 
 
 
+  /*US_14(761-811 satır)*/
+  @FindBy(xpath = "//input[@id='individual_use']")
+  public WebElement individualUseOnly;
+  @FindBy(xpath = "//input[@id='exclude_sale_items']")
+  public WebElement excludeSaleItems;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[1]")
+  public WebElement productsTextbox;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[2]")
+  public WebElement excludeProductsTextbox;
+  @FindBy(xpath = "(//li[@role='option'])[1]")
+  public WebElement productsTextboxClick;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[3]")
+  public WebElement productCategoriesTextbox;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[4]")
+  public WebElement excludeCategoriesTextbox;
+  @FindBy(xpath = "//input[@id='customer_email']")
+  public  WebElement emailRestrictions;
 
 
 
@@ -758,7 +789,6 @@ public WebElement couponAddNewButton;
 
 
 
-/*US_14(761-811 satır)*/
 
 
 
@@ -779,37 +809,7 @@ public WebElement couponAddNewButton;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*US_15(812-862 satır)*/
+  /*US_15(812-862 satır)*/
 
 
 
