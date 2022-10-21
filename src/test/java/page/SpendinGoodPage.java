@@ -866,11 +866,18 @@ public WebElement couponAddNewButton;
   @FindBy(xpath ="//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--wcfm-store-manager']")
   public WebElement StoreManager;
 
-  @FindBy(xpath ="(//*[@class='text'])[7]")
-       public WebElement Customers;
+  @FindBy(xpath = "(//*[@class='text'])[7]")
+       public WebElement Customerss;
 
 
 
+
+ // @FindBy(xpath ="//*[@class='page_collapsible_content_holder'][9]")
+  //public WebElement toptanurungosterme;
+
+
+  //@FindBy(xpath ="//*[@id='piecetype']")
+  //public WebElement piecetype;
 
 
 

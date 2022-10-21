@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
+    <list default="true" id="ca2faadc-4967-4ab1-9370-ae2944505195" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_16/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_16/TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,16 +69,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TC_001.maneger">
-    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_001" />
+      <option name="PACKAGE_NAME" value="tests.US_16" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_16.TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -154,17 +159,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TC_001.maneger" />
+        <item itemvalue="TestNG.TC_001" />
         <item itemvalue="TestNG.TC_004" />
         <item itemvalue="TestNG.TC_003" />
         <item itemvalue="TestNG.TC_002.testCase01" />
-        <item itemvalue="TestNG.TC_001 (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
+      <changelist id="ca2faadc-4967-4ab1-9370-ae2944505195" name="Changes" comment="" />
       <created>1666021283262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

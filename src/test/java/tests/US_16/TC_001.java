@@ -24,6 +24,6 @@ public class TC_001 {
         Thread.sleep(3000);
         spend.StoreManager.click();
         Thread.sleep(3000);
-        spend.Customers.click();
+        spend.Customerss.click();
     }
 }
