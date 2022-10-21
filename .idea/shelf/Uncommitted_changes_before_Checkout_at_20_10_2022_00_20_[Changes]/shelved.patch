@@ -1,0 +1,412 @@
+Index: src/test/java/tests/US_05/TC_001.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests.US_05;\r\n\r\npublic class TC_001 {\r\n    //h\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/US_05/TC_001.java b/src/test/java/tests/US_05/TC_001.java
+--- a/src/test/java/tests/US_05/TC_001.java	(revision 03bad6fe29e11bcf7043863eb6052f27224d76b8)
++++ b/src/test/java/tests/US_05/TC_001.java	(date 1666214404238)
+@@ -1,5 +1,0 @@
+-package tests.US_05;
+-
+-public class TC_001 {
+-    //h
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n    <component name=\"AutoImportSettings\">\r\n        <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n    </component>\r\n    <component name=\"ChangeListManager\">\r\n        <list default=\"true\" id=\"54bf443b-9d6c-4356-b2a8-1762d3358999\" name=\"Changes\" comment=\"\">\r\n            <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class\" afterDir=\"false\" />\r\n            <change beforePath=\"$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class\" afterDir=\"false\" />\r\n        </list>\r\n        <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n        <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n        <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n        <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n    </component>\r\n    <component name=\"FileTemplateManagerImpl\">\r\n        <option name=\"RECENT_TEMPLATES\">\r\n            <list>\r\n                <option value=\"Class\" />\r\n            </list>\r\n        </option>\r\n    </component>\r\n    <component name=\"Git.Settings\">\r\n        <excluded-from-favorite>\r\n            <branch-storage>\r\n                <map>\r\n                    <entry type=\"LOCAL\">\r\n                        <value>\r\n                            <list>\r\n                                <branch-info repo=\"$PROJECT_DIR$\" source=\"master\" />\r\n                            </list>\r\n                        </value>\r\n                    </entry>\r\n                </map>\r\n            </branch-storage>\r\n        </excluded-from-favorite>\r\n        <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n            <map>\r\n                <entry key=\"$PROJECT_DIR$\" value=\"cuneyt\" />\r\n            </map>\r\n        </option>\r\n        <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    </component>\r\n    <component name=\"MarkdownSettingsMigration\">\r\n        <option name=\"stateVersion\" value=\"1\" />\r\n    </component>\r\n    <component name=\"ProjectId\" id=\"2GGiNRkjGPL9TTPw5s6nWOKDdS2\" />\r\n    <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n    <component name=\"ProjectViewState\">\r\n        <option name=\"showLibraryContents\" value=\"true\" />\r\n    </component>\r\n    <component name=\"PropertiesComponent\">{\r\n        &quot;keyToString&quot;: {\r\n        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n        &quot;last_opened_file_path&quot;: &quot;C:/Users/Ramazan/IdeaProjects/project5/src/test/java/page&quot;,\r\n        &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n        &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n        &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n        &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n        }\r\n        }</component>\r\n    <component name=\"RecentsManager\">\r\n        <key name=\"CopyFile.RECENT_KEYS\">\r\n            <recent name=\"C:\\Users\\Ramazan\\IdeaProjects\\project5\\src\\test\\java\\page\" />\r\n            <recent name=\"C:\\Users\\Ramazan\\IdeaProjects\\project5\\src\\test\\java\\tests\" />\r\n        </key>\r\n    </component>\r\n    <component name=\"RunManager\" selected=\"TestNG.TC_001\">\r\n        <configuration name=\"TC_001\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n            <module name=\"project5\" />\r\n            <extension name=\"coverage\">\r\n                <pattern>\r\n                    <option name=\"PATTERN\" value=\"tests.US_12.*\" />\r\n                    <option name=\"ENABLED\" value=\"true\" />\r\n                </pattern>\r\n            </extension>\r\n            <option name=\"PACKAGE_NAME\" value=\"tests.US_12\" />\r\n            <option name=\"MAIN_CLASS_NAME\" value=\"tests.US_12.TC_001\" />\r\n            <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n            <properties />\r\n            <listeners />\r\n            <method v=\"2\">\r\n                <option name=\"Make\" enabled=\"true\" />\r\n            </method>\r\n        </configuration>\r\n        <configuration name=\"TC_001.testcase01\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n            <module name=\"project5\" />\r\n            <extension name=\"coverage\">\r\n                <pattern>\r\n                    <option name=\"PATTERN\" value=\"tests.US_12.*\" />\r\n                    <option name=\"ENABLED\" value=\"true\" />\r\n                </pattern>\r\n            </extension>\r\n            <option name=\"PACKAGE_NAME\" value=\"tests.US_12\" />\r\n            <option name=\"MAIN_CLASS_NAME\" value=\"tests.US_12.TC_001\" />\r\n            <option name=\"METHOD_NAME\" value=\"testcase01\" />\r\n            <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n            <properties />\r\n            <listeners />\r\n            <method v=\"2\">\r\n                <option name=\"Make\" enabled=\"true\" />\r\n            </method>\r\n        </configuration>\r\n        <recent_temporary>\r\n            <list>\r\n                <item itemvalue=\"TestNG.TC_001\" />\r\n                <item itemvalue=\"TestNG.TC_001.testcase01\" />\r\n            </list>\r\n        </recent_temporary>\r\n    </component>\r\n    <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n    <component name=\"TaskManager\">\r\n        <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n            <changelist id=\"54bf443b-9d6c-4356-b2a8-1762d3358999\" name=\"Changes\" comment=\"\" />\r\n            <created>1666021283262</created>\r\n            <option name=\"number\" value=\"Default\" />\r\n            <option name=\"presentableId\" value=\"Default\" />\r\n            <updated>1666021283262</updated>\r\n        </task>\r\n        <servers />\r\n    </component>\r\n    <component name=\"Vcs.Log.Tabs.Properties\">\r\n        <option name=\"TAB_STATES\">\r\n            <map>\r\n                <entry key=\"MAIN\">\r\n                    <value>\r\n                        <State />\r\n                    </value>\r\n                </entry>\r\n            </map>\r\n        </option>\r\n    </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 03bad6fe29e11bcf7043863eb6052f27224d76b8)
++++ b/.idea/workspace.xml	(date 1666186925572)
+@@ -1,61 +1,56 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-    <component name="AutoImportSettings">
+-        <option name="autoReloadType" value="SELECTIVE" />
+-    </component>
+-    <component name="ChangeListManager">
+-        <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
+-            <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" afterDir="false" />
+-            <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" afterDir="false" />
+-        </list>
+-        <option name="SHOW_DIALOG" value="false" />
+-        <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-        <option name="LAST_RESOLUTION" value="IGNORE" />
+-    </component>
+-    <component name="FileTemplateManagerImpl">
+-        <option name="RECENT_TEMPLATES">
+-            <list>
+-                <option value="Class" />
+-            </list>
+-        </option>
+-    </component>
+-    <component name="Git.Settings">
+-        <excluded-from-favorite>
+-            <branch-storage>
+-                <map>
+-                    <entry type="LOCAL">
+-                        <value>
+-                            <list>
+-                                <branch-info repo="$PROJECT_DIR$" source="master" />
+-                            </list>
+-                        </value>
+-                    </entry>
+-                </map>
+-            </branch-storage>
+-        </excluded-from-favorite>
+-        <option name="RECENT_BRANCH_BY_REPOSITORY">
+-            <map>
+-                <entry key="$PROJECT_DIR$" value="cuneyt" />
+-            </map>
+-        </option>
+-        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-    </component>
+-    <component name="MarkdownSettingsMigration">
+-        <option name="stateVersion" value="1" />
+-    </component>
+-    <component name="ProjectId" id="2GGiNRkjGPL9TTPw5s6nWOKDdS2" />
+-    <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-    <component name="ProjectViewState">
+-        <option name="showLibraryContents" value="true" />
+-    </component>
+-    <component name="PropertiesComponent">{
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2GGiNRkjGPL9TTPw5s6nWOKDdS2" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
+         &quot;keyToString&quot;: {
+         &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+         &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+@@ -66,75 +61,130 @@
+         &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+         }
+         }</component>
+-    <component name="RecentsManager">
+-        <key name="CopyFile.RECENT_KEYS">
+-            <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\page" />
+-            <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
+-        </key>
+-    </component>
+-    <component name="RunManager" selected="TestNG.TC_001">
+-        <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
+-            <module name="project5" />
+-            <extension name="coverage">
+-                <pattern>
+-                    <option name="PATTERN" value="tests.US_12.*" />
+-                    <option name="ENABLED" value="true" />
+-                </pattern>
+-            </extension>
+-            <option name="PACKAGE_NAME" value="tests.US_12" />
+-            <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+-            <option name="TEST_OBJECT" value="CLASS" />
+-            <properties />
+-            <listeners />
+-            <method v="2">
+-                <option name="Make" enabled="true" />
+-            </method>
+-        </configuration>
+-        <configuration name="TC_001.testcase01" type="TestNG" temporary="true" nameIsGenerated="true">
+-            <module name="project5" />
+-            <extension name="coverage">
+-                <pattern>
+-                    <option name="PATTERN" value="tests.US_12.*" />
+-                    <option name="ENABLED" value="true" />
+-                </pattern>
+-            </extension>
+-            <option name="PACKAGE_NAME" value="tests.US_12" />
+-            <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+-            <option name="METHOD_NAME" value="testcase01" />
+-            <option name="TEST_OBJECT" value="METHOD" />
+-            <properties />
+-            <listeners />
+-            <method v="2">
+-                <option name="Make" enabled="true" />
+-            </method>
+-        </configuration>
+-        <recent_temporary>
+-            <list>
+-                <item itemvalue="TestNG.TC_001" />
+-                <item itemvalue="TestNG.TC_001.testcase01" />
+-            </list>
+-        </recent_temporary>
+-    </component>
+-    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-    <component name="TaskManager">
+-        <task active="true" id="Default" summary="Default task">
+-            <changelist id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
+-            <created>1666021283262</created>
+-            <option name="number" value="Default" />
+-            <option name="presentableId" value="Default" />
+-            <updated>1666021283262</updated>
+-        </task>
+-        <servers />
+-    </component>
+-    <component name="Vcs.Log.Tabs.Properties">
+-        <option name="TAB_STATES">
+-            <map>
+-                <entry key="MAIN">
+-                    <value>
+-                        <State />
+-                    </value>
+-                </entry>
+-            </map>
+-        </option>
+-    </component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\page" />
++      <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
++    </key>
++  </component>
++  <component name="RunManager" selected="TestNG.TC_001 (1)">
++    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="project05" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.US_05.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.US_05" />
++      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_001" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="project5" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.US_12.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.US_12" />
++      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TC_001.AyniPassworduGirmeTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="project05" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.US_05.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.US_05" />
++      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_001" />
++      <option name="METHOD_NAME" value="AyniPassworduGirmeTest" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TC_001.testcase01" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="project5" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.US_12.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.US_12" />
++      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
++      <option name="METHOD_NAME" value="testcase01" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TC_02" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="project05" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.US_01.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.US_01" />
++      <option name="MAIN_CLASS_NAME" value="tests.US_01.TC_02" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="TestNG.TC_001 (1)" />
++        <item itemvalue="TestNG.TC_001.AyniPassworduGirmeTest" />
++        <item itemvalue="TestNG.TC_02" />
++        <item itemvalue="TestNG.TC_001.testcase01" />
++        <item itemvalue="TestNG.TC_001" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
++      <created>1666021283262</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1666021283262</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/page/SpendinGoodPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package page;\r\n\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.FindBy;\r\nimport org.openqa.selenium.support.PageFactory;\r\nimport utilities.Driver;\r\n\r\npublic class SpendinGoodPage {\r\n\r\n    public SpendinGoodPage(){\r\n        PageFactory.initElements(Driver.getDriver(),this);\r\n    }\r\n\r\n\r\n\r\n\r\n  /* US_01 (17-67) */\r\n    //GİRİS İSLEMİ LOCATLERİ\r\n    @FindBy(xpath = \"//*[text()='Register']\")\r\n    public WebElement Register;\r\n    @FindBy(xpath = \"//*[text()='Sign In ']\")\r\n    public WebElement signIn;\r\n    @FindBy(xpath = \"//*[@class='nav-link']\")\r\n    public WebElement SIGNUP;\r\n\r\n    @FindBy(xpath = \"//*[@class='wcfmmp_become_vendor_link']\")\r\n    public WebElement BecomeVendor;\r\n\r\n    @FindBy(xpath = \"//*[@class='page-title']\")\r\n    public WebElement VendorRegistration;\r\n\r\n    @FindBy(xpath = \"//*[@id='wcfm_membership_registration_form']\")\r\n    public WebElement EmailPasswordConfirmPassword;\r\n    @FindBy(xpath = \"//*[@class='wcfm-membership-wrapper']\")\r\n    public WebElement UcEmailPasswordConfirmPassword;\r\n    @FindBy(xpath = \"//*[@id='user_email']\")\r\n    public WebElement Email;\r\n    @FindBy(xpath = \"//*[@class='wcfm-text wcfm_email_verified_input']\")\r\n    public WebElement VerificationCodeBox;\r\n    @FindBy(xpath = \"//*[@class='wcfm-text wcfm_submit_button wcfm_email_verified_button']\")\r\n    public WebElement ReSendCode;\r\n    @FindBy(xpath = \"//*[@id='passoword']\")\r\n    public WebElement Password;\r\n    @FindBy(xpath = \"//*[@id='confirm_pwd']\")\r\n    public WebElement ConfirmPassword;\r\n    @FindBy(xpath = \"//*[@id='wcfm_membership_register_button']\")\r\n    public WebElement RegisterButton;\r\n    @FindBy(xpath = \"//*[@class='wcfm-message wcfm-error']\")\r\n    public WebElement UniqOlmayanYazisi;\r\n    @FindBy(xpath = \"//*[@class='button button-large']\")\r\n    public WebElement NotRıghtNowButton;\r\n    @FindBy(xpath = \"//*[@id='menu-item-1074']\")\r\n    public WebElement MyAccount;\r\n    //verification code div.email\r\n    @FindBy (xpath = \"//*[@class='email']\")\r\n    public WebElement geciciEmail;\r\n    @FindBy (css = \"a#renew\")\r\n    public WebElement emailBoxRefresh;\r\n    @FindBy(xpath = \"//tbody//tr[1]\")\r\n    public WebElement geciciEmailBox;\r\n    @FindBy(xpath = \"//*[@id='body_content_inner']\")\r\n    public WebElement verificationCode;\r\n    @FindBy(xpath = \"//*[@id='renew']\")\r\n    public WebElement yenilemeTusu;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_02(68-118)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_03(119-169 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_04(170-220 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_04(221-271 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_05(272-352 satır)*/\r\n    @FindBy (xpath =\"//*[text()='Store Manager']\")\r\n    public WebElement storeManager;\r\n\r\n    @FindBy (xpath =\"(//*[@class='text'])[4]\")\r\n    public WebElement storeManagerProducts;\r\n\r\n    @FindBy (xpath =\"//*[@style='width: 98px;']\")\r\n    public WebElement status;\r\n\r\n    @FindBy (xpath =\"//*[@style='width: 59px;']\")\r\n    public WebElement stock;\r\n\r\n    @FindBy (xpath =\"//*[@style='width: 51px;']\")\r\n    public WebElement price;\r\n\r\n    @FindBy (xpath =\"//*[@class='sorting_desc']\")\r\n    public WebElement date;\r\n\r\n    @FindBy (xpath =\"//*[text()='Add New']\")\r\n    public WebElement addNew;\r\n\r\n    @FindBy (xpath =\"//*[text()='Virtual']\")\r\n    public WebElement virtual;\r\n\r\n    @FindBy (xpath =\"//*[text()='Downloadable']\")\r\n    public WebElement downloadable;\r\n\r\n    @FindBy (xpath =\"//*[@id='pro_title']\")\r\n    public WebElement productTitle;\r\n\r\n    @FindBy (xpath =\"//*[@id='regular_price']\")\r\n    public WebElement priceMiktar;\r\n\r\n    @FindBy (xpath =\"//*[@id='featured_img_display']\")\r\n    public WebElement urunIlkResimEkleme;\r\n\r\n    @FindBy (xpath =\"//*[@id='__wp-uploader-id-1']\")\r\n    public WebElement selectFiles;\r\n\r\n    @FindBy (xpath =\"//*[text()='Select']\")\r\n    public WebElement select;\r\n\r\n    @FindBy (xpath =\"//*[@id='gallery_img_gimage_0_display']\")\r\n    public WebElement urunIkinciResimEkleme;\r\n\r\n    @FindBy (xpath =\"(//*[text()='Add to Gallery'])[3]\")\r\n    public WebElement addToGallery;\r\n\r\n    @FindBy (xpath =\"//*[@id='excerpt_ifr']\")\r\n    public WebElement shortDescription;\r\n    @FindBy (xpath =\"//*[@id='description_ifr']\")\r\n    public WebElement description;\r\n    @FindBy (xpath =\"//*[@id='wcfm_products_simple_submit_button']\")\r\n    public WebElement submit;\r\n    @FindBy (xpath =\"//*[@id='featured_img_display']\")\r\n    public WebElement ikinciResimGorunurluk;\r\n    @FindBy (xpath =\"//*[@class='wcfm-message wcfm-error']\")\r\n    public WebElement hataYazisi;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_06(353-403 satır)*/\r\n    @FindBy (xpath =\"//*[@class='wcfm_product_manager_cats_checklist_fields']\")\r\n    public WebElement categories;\r\n    @FindBy (xpath =\"(//*[@name='product_cats[]'])[40]\")\r\n    public WebElement vitamin;\r\n\r\n    @FindBy (xpath =\"//*[@value='225']\")\r\n    public WebElement bestSeller;\r\n\r\n    @FindBy (xpath =\"//*[@value='230']\")\r\n    public WebElement electronics;\r\n\r\n    @FindBy (xpath =\"//*[@value='228']\")\r\n    public WebElement homeGarden;\r\n\r\n    @FindBy (xpath =\"//*[@value='232']\")\r\n    public WebElement booksMusicFilm;\r\n\r\n    @FindBy (xpath =\"//*[@value='235']\")\r\n    public WebElement healthBeauty;\r\n\r\n    @FindBy (xpath =\"//*[@value='344']\")\r\n    public WebElement fashion;\r\n\r\n    @FindBy (xpath =\"//*[@value='233']\")\r\n    public WebElement toys;\r\n\r\n    @FindBy (xpath =\"//*[@value='229']\")\r\n    public WebElement accessories;\r\n\r\n    @FindBy (xpath =\"//*[@value='226']\")\r\n    public WebElement newArrivals;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_07(404-454 satır)*/\r\n    @FindBy (xpath =\"//*[@value='35']\")\r\n    public WebElement elegantAutoGroup;\r\n\r\n    @FindBy (xpath =\"//*[@value='41']\")\r\n    public WebElement greenGrace;\r\n\r\n    @FindBy (xpath =\"//*[@value='46']\")\r\n    public WebElement nodeJs;\r\n\r\n    @FindBy (xpath =\"//*[@value='47']\")\r\n    public WebElement ns8;\r\n\r\n    @FindBy (xpath =\"//*[@value='50']\")\r\n    public WebElement red;\r\n\r\n    @FindBy (xpath =\"//*[@value='52']\")\r\n    public WebElement skySuiteTech;\r\n\r\n    @FindBy (xpath =\"//*[@value='55']\")\r\n    public WebElement sterling;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_08(455-505 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_09(506-556 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_10(557-607 satır)*/\r\n\r\n\r\n    @FindBy(xpath =\"//*[@id='wcfm_products_manage_form_attribute_head']\" )\r\n    public WebElement atributesbutton;\r\n\r\n    @FindBy(xpath =\"//*[@id='attributes_is_active_1']\")\r\n    public WebElement color;\r\n\r\n    @FindBy(xpath =\"//*[@id='attributes_is_active_2']\")\r\n    public WebElement size;\r\n    @FindBy(xpath =\"//span[@class='select2-results']\")\r\n    public WebElement activeColor;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_11(608-658 satır)*/\r\n\r\n\r\n    @FindBy(xpath =\"//*[@class='page_collapsible_content_holder'][9]\")\r\n    public WebElement toptanurungosterme;\r\n\r\n    @FindBy(xpath =\"//*[@id='piecetype']\")\r\n    public WebElement piecetype;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_12(659-709 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_13(710-760 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_14(761-811 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_15(812-862 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_16(863-913 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_17(914-964 satır)*/\r\n    @FindBy(xpath = \"//*[text()='Sign In '] \")\r\n    public WebElement SignIn;\r\n    @FindBy (xpath = \"//*[@id='username']\")\r\n    public WebElement userNameBox;\r\n    @FindBy (xpath = \"//*[@id='password']\")\r\n    public WebElement passwordBox;\r\n    @FindBy (xpath = \"(//*[text()='Sign In'])[2]\")\r\n    public WebElement SignInButton;\r\n    @FindBy(xpath = \"(//*[text()='My Account'])[1]\")\r\n    public WebElement myAccount;\r\n    @FindBy (xpath = \"//*[text()='shipping and billing addresses']\")\r\n    public WebElement shippingAndBillingAddresses;\r\n    @FindBy (xpath = \"//*[text()='Edit Your Billing Address']\")\r\n    public WebElement editYourBilling;\r\n    @FindBy (xpath = \"//*[@id='billing_first_name']\")\r\n    public WebElement billingName;\r\n    @FindBy (xpath = \"//*[@id='select2-billing_country-container']\")\r\n    public WebElement countryRegion;\r\n    @FindBy (xpath = \"(//*[text()='Belgium'])[3]\")\r\n    public WebElement belgium;\r\n    @FindBy (xpath = \"//*[text()='Save address']\")\r\n    public WebElement saveAddress;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_18(965-1015 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_19(1016-1066 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_20(1067-1117 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_21(1118-1168 satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    /*US_22(1169- satır)*/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/page/SpendinGoodPage.java b/src/test/java/page/SpendinGoodPage.java
+--- a/src/test/java/page/SpendinGoodPage.java	(revision 03bad6fe29e11bcf7043863eb6052f27224d76b8)
++++ b/src/test/java/page/SpendinGoodPage.java	(date 1666172668007)
+@@ -264,58 +264,7 @@
+ 
+ 
+ 
+-    /*US_04(221-271 satır)*/
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-    /*US_05(272-352 satır)*/
++    /*US_04(221-271 satı/*US_05(272-352 satır)*/
+     @FindBy (xpath ="//*[text()='Store Manager']")
+     public WebElement storeManager;
+ 
