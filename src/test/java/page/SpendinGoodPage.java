@@ -353,35 +353,35 @@ public class SpendinGoodPage {
     /*US_06(353-403 satır)*/
     @FindBy (xpath ="//*[@class='wcfm_product_manager_cats_checklist_fields']")
     public WebElement categories;
-    @FindBy (xpath ="(//*[@name='product_cats[]'])[40]")
+    @FindBy (xpath ="(//*[@style='visibility: visible;'])[6]")
+  public WebElement healthTik;
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[41]")
     public WebElement vitamin;
-
     @FindBy (xpath ="//*[@value='225']")
     public WebElement bestSeller;
-
     @FindBy (xpath ="//*[@value='230']")
     public WebElement electronics;
-
     @FindBy (xpath ="//*[@value='228']")
     public WebElement homeGarden;
-
-    @FindBy (xpath ="//*[@value='232']")
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[9]")
     public WebElement booksMusicFilm;
-
-    @FindBy (xpath ="//*[@value='235']")
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[35]")
     public WebElement healthBeauty;
-
-    @FindBy (xpath ="//*[@value='344']")
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[24]")
     public WebElement fashion;
-
-    @FindBy (xpath ="//*[@value='233']")
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[70]")
     public WebElement toys;
-
-    @FindBy (xpath ="//*[@value='229']")
+    @FindBy (xpath ="//*[@name='product_cats[]']")
     public WebElement accessories;
-
-    @FindBy (xpath ="//*[@value='226']")
+    @FindBy (xpath ="(//*[@name='product_cats[]'])[65]")
     public WebElement newArrivals;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[52]")
+  public WebElement indirimliUrunler;
+
+
+
+
+
 
 
 
@@ -422,6 +422,12 @@ public class SpendinGoodPage {
 
     @FindBy (xpath ="//*[@value='55']")
     public WebElement sterling;
+  @FindBy (xpath ="//*[@id='coupons_manage_restriction']")
+  public WebElement res;
+  @FindBy (xpath ="//*[@id='individual_use']")
+  public WebElement inv;
+  @FindBy (xpath ="(//*[@class='text'])[6]")
+  public WebElement kupon;
 
 
 
@@ -446,13 +452,7 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-    /*US_08(455-505 satır)*/
+  /*US_08(455-505 satır)*/
 
 
 

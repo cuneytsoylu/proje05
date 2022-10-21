@@ -40,14 +40,11 @@ public class TC_006 extends TestBaseRapor {
         extentTest.info("addNew butonuna tiklandi");
         actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
-        //Store Manager Product Title, Price alanlarını boş bırakır. Categories seçmez ve ürün foto eklemez.
-        //Store Manager Submit butonuna tıklar.
+
         spendinGoodPage.submit.click();
         extentTest.info("submit butonuna tiklandi");
         reusable.waitFor(2);
-        //"Store Manager ekranda""Please insert Product Title before submit.""
-        //""Featured img: This field is required"".""Gallery Images: This field is required.""
-        //Product cat: This field is required."" uyarısını görür."
+
         Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
         extentTest.info("hata yazisi goruldu");
 

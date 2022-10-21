@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_11_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_18_2022_6_17_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="21102022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/Cuneyt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_05/TC_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01/TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01/TC_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_05/TC_004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_16/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_16/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,17 +66,17 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_004">
-    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Cuneyt">
+    <configuration name="Cuneyt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_001" />
+      <option name="PACKAGE_NAME" value="tests.US_07" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_07.Cuneyt" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,33 +84,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_12" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_002.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cuneyt.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_002" />
+      <option name="PACKAGE_NAME" value="tests.US_07" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_07.Cuneyt" />
       <option name="METHOD_NAME" value="testCase01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -138,16 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_003" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_003" />
+      <option name="PACKAGE_NAME" value="tests.US_07" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_07.TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -155,16 +119,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_004" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_05.*" />
+          <option name="PATTERN" value="tests.US_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_05" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_05.TC_004" />
+      <option name="PACKAGE_NAME" value="tests.US_07" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_07.TC_002" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_007" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_07" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_07.TC_007" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -174,10 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_004" />
-        <item itemvalue="TestNG.TC_003" />
-        <item itemvalue="TestNG.TC_002.testCase01" />
-        <item itemvalue="TestNG.TC_001 (1)" />
+        <item itemvalue="TestNG.Cuneyt" />
+        <item itemvalue="TestNG.Cuneyt.testCase01" />
+        <item itemvalue="TestNG.TC_002" />
+        <item itemvalue="TestNG.TC_007" />
         <item itemvalue="TestNG.TC_001" />
       </list>
     </recent_temporary>
@@ -191,6 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666021283262</updated>
     </task>
+    <task id="LOCAL-00001" summary="21102022">
+      <created>1666340120214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666340120214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,5 +192,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="21102022" />
+    <option name="LAST_COMMIT_MESSAGE" value="21102022" />
   </component>
 </project>
