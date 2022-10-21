@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_22/TC_01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\page" />
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.US_22" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TC_001.maneger">
