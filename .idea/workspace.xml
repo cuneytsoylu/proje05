@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="19102022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_001.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_003.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_004.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_005.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_006.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_13/TC_007.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_003.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_004.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_005.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/SpendinGoodPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12/TC_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_005.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_006.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13/TC_007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14/TC_005.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17/TC_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseRapor.class" beforeDir="false" />
-    </list>
+    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="20102022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666178282266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20102022">
+      <created>1666309656330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666309656330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="19102022" />
-    <option name="LAST_COMMIT_MESSAGE" value="19102022" />
+    <MESSAGE value="20102022" />
+    <option name="LAST_COMMIT_MESSAGE" value="20102022" />
   </component>
 </project>
