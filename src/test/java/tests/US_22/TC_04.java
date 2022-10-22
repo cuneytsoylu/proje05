@@ -21,21 +21,29 @@ public class TC_04 extends TestBaseRapor {
 
     @Test
     public void test1() {
+        
         extentTest = extentReports.createTest("sorting the products prices", "sort:high to low");
+        
         SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
 
 
         extentTest.info("https://spendinggood.com/ kullanici ana sayfaya gider");
+        
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
 
         extentTest.info(" // daily deals linkini tiklar");
+        
         spendinGoodPage.dailyDeals.click();
+        
         extentTest.info("// sort by menuden fiyati yuksekten dusuge  secer");
+        
         Select select = new Select(spendinGoodPage.ddm);
+        
         select.selectByVisibleText("Sort by price: high to low");
+        
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+        
         wait.until(ExpectedConditions.visibilityOf(spendinGoodPage.mostExpensive));
-
 
         extentTest.info("// fiyatlarin yuksekten dusuge siralandigini dogrular");
 
@@ -56,7 +64,6 @@ public class TC_04 extends TestBaseRapor {
             listeString.set(i, listeString.get(i).replace(",", ""));
         }
 
-
         List<Double> actualList = new ArrayList<>();
 
         for (String w : listeString
@@ -75,11 +82,13 @@ public class TC_04 extends TestBaseRapor {
         expectedList.stream().sorted(Comparator.reverseOrder());
 
         System.out.println("actualList = " + actualList);
+        
         extentTest.pass("beklenen siralama ile olan siralama birbirine esit");
 
         Assert.assertEquals(actualList, expectedList);
 
         extentTest.info("close driver");
+        
         Driver.closeDriver();
 
 
