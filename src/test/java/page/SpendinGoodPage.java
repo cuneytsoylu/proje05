@@ -727,7 +727,7 @@ public class SpendinGoodPage {
   @FindBy(xpath = "//input[@id='show_on_store']")
   public WebElement showOnStore;
 
-
+ // locate ler tamamlandılar
 
 
 
