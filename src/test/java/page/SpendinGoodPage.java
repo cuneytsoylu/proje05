@@ -14,9 +14,7 @@ public class SpendinGoodPage {
     }
 
 
-
-
-  /* US_01 (17-67) */
+    /* US_01 (17-67) */
     //GİRİS İSLEMİ LOCATLERİ
     @FindBy(xpath = "//*[text()='Register']")
     public WebElement Register;
@@ -709,7 +707,7 @@ public class SpendinGoodPage {
 
 
 
-    /*US_13(710-760 satır)*/
+  /*US_13(710-760 satır)*/
     @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
     public WebElement couponButton;
   @FindBy(xpath = "//*[text()=\"Add New\"]")
@@ -769,24 +767,24 @@ public class SpendinGoodPage {
   public WebElement productsTextbox;
   @FindBy(xpath = "(//input[@class='select2-search__field'])[2]")
   public WebElement excludeProductsTextbox;
-  @FindBy(xpath = "(//li[@role='option'])[1]")
+  @FindBy(xpath = "(//*[text()='CCS-saat (watch unit)'])[1]")
   public WebElement productsTextboxClick;
-  @FindBy(xpath = "(//input[@class='select2-search__field'])[3]")
+  @FindBy(xpath = "(//*[text()=\"CCS-saat (watch unit)\"])[2]")
+  public WebElement excludeProductsTextboxClick;
+  @FindBy (xpath ="(//*[@class='select2-search__field'])[3]")
   public WebElement productCategoriesTextbox;
-  @FindBy(xpath = "(//input[@class='select2-search__field'])[4]")
+  @FindBy (xpath ="(//*[@class='select2-search__field'])[4]")
   public WebElement excludeCategoriesTextbox;
-  @FindBy(xpath = "//input[@id='customer_email']")
+  @FindBy (xpath ="//*[@id='customer_email']")
   public  WebElement emailRestrictions;
-
-
-
-
-
-
-
-
-
-
+  @FindBy(xpath = "//input[@id='minimum_amount']")
+  public WebElement minimumSpend;
+  @FindBy(xpath = "//input[@id='maximum_amount']")
+  public WebElement maximumSpend;
+  @FindBy(xpath = "(//li[text()='CCS-saat (watch unit)'])[2]")
+  public WebElement productsTextboxClick2;
+  @FindBy (xpath ="//*[@class='select2-results__option select2-results__option--highlighted']")
+  public WebElement selectThing;
 
 
 
@@ -813,24 +811,24 @@ public class SpendinGoodPage {
 
   /*US_15(812-862 satır)*/
 
+  @FindBy (xpath ="//*[text()='kupa']")
+  public WebElement kupa;
+  @FindBy (xpath ="//*[@class='wcfm-content']")
+  public WebElement bosluk;
+  @FindBy (xpath ="//*[@id='coupons_manage_limit']")
+  public WebElement limit;
+  @FindBy (xpath ="//*[@id='usage_limit']")
+  public WebElement usageLimit;
+  @FindBy (xpath ="//*[@id='limit_usage_to_x_items']")
+  public WebElement usageToX;
+  @FindBy (xpath ="//*[@id='usage_limit_per_user']")
+  public WebElement userLimit;
 
+  @FindBy (xpath ="//*[@id='wcfm_coupon_manager_submit_button']")
+  public WebElement sonSubmit;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  @FindBy (xpath ="//*[contains(text(), 'kupa')]")
+  public WebElement kupaLocate;
 
 
 
