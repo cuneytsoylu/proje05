@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -872,8 +874,8 @@ public WebElement couponAddNewButton;
 
 
 
- // @FindBy(xpath ="//*[@class='page_collapsible_content_holder'][9]")
-  //public WebElement toptanurungosterme;
+ @FindBy(xpath ="//tbody//tr//td[1]")
+  public List<WebElement> bütünisimlerlist;
 
 
   //@FindBy(xpath ="//*[@id='piecetype']")
