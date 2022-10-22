@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -12,9 +14,7 @@ public class SpendinGoodPage {
     }
 
 
-
-
-  /* US_01 (17-67) */
+    /* US_01 (17-67) */
     //GİRİS İSLEMİ LOCATLERİ
     @FindBy(xpath = "//*[text()='Register']")
     public WebElement Register;
@@ -422,12 +422,12 @@ public class SpendinGoodPage {
 
   @FindBy (xpath ="//*[@value='55']")
   public WebElement sterling;
-  @FindBy (xpath ="//*[@id='coupons_manage_restriction']")
-  public WebElement res;
-  @FindBy (xpath ="//*[@id='individual_use']")
-  public WebElement inv;
-  @FindBy (xpath ="(//*[@class='text'])[6]")
-  public WebElement kupon;
+
+
+
+
+
+
 
 
 
