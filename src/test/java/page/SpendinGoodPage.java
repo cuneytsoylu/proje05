@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -1169,6 +1171,60 @@ public class SpendinGoodPage {
     /*US_22(1169- satır)*/
 
 
+
+  @FindBy(xpath = "//a[text()='Daily Deals']")
+  public WebElement dailyDeals;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/figure/a/img[2]")
+  public WebElement dailyDealsfirstItem;
+
+  @FindBy(xpath = "//*[text()='Sort By :']")
+  public WebElement sortBy;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']//option")
+  public List<WebElement> sortBySelectDDMList;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']")
+  public WebElement ddm;
+
+  @FindBy(css = ".spendingGoodUrl")
+  public List<WebElement> DailyDealsAllProductList;
+
+  @FindBy(xpath = "no location")
+  public WebElement viewAll;
+
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/span/ins/span/bdi")
+  public WebElement mostExpensive;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/div/div")
+  public WebElement cheapest;
+
+  @FindBy(xpath = "//span[@class='price']")
+  public List<WebElement> DailyDealsAllPricesList;
+
+  @FindBy(xpath = "//button[.='Sign In']")
+  public WebElement signInEnter;
+
+    @FindBy(xpath = "//*[text()='Store Manager']")
+    public WebElement storeManagerUS20;
+
+    @FindBy(xpath = "//table//tr//td[3]")
+    public List<WebElement> tableAllCommentList;
+
+    @FindBy(xpath = "//table//tr//td[4]")
+    public List<WebElement> tableAllRatingList;
+
+    @FindBy(xpath = "//table//tr//td[6]")
+    public List<WebElement> tableAllDateList;
+    @FindBy(xpath = "(//a[@href='https://spendinggood.com/store-manager/reviews/'])[1]")
+    public WebElement reviews;
+
+    @FindBy(css = "#add_new_product_dashboard")
+    public WebElement productReviews;
+
+    @FindBy(xpath = "//tfoot//th")
+    public List<WebElement> customerInfoList;
+
+    @FindBy(xpath = "//span[@class='price']")
+    public List<WebElement> visibleElementOnMainMenu;
 
 
 
