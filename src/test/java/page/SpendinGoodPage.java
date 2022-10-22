@@ -14,9 +14,7 @@ public class SpendinGoodPage {
     }
 
 
-
-
-  /* US_01 (17-67) */
+    /* US_01 (17-67) */
     //GİRİS İSLEMİ LOCATLERİ
     @FindBy(xpath = "//*[text()='Register']")
     public WebElement Register;
@@ -709,7 +707,7 @@ public class SpendinGoodPage {
 
 
 
-    /*US_13(710-760 satır)*/
+  /*US_13(710-760 satır)*/
     @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
     public WebElement couponButton;
   @FindBy(xpath = "//*[text()=\"Add New\"]")
@@ -811,10 +809,6 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
   /*US_15(812-862 satır)*/
 
   @FindBy (xpath ="//*[text()='kupa']")
@@ -835,24 +829,6 @@ public class SpendinGoodPage {
 
   @FindBy (xpath ="//*[contains(text(), 'kupa')]")
   public WebElement kupaLocate;
-
-  @FindBy (xpath ="(//*[@class='text'])[6]")
-  public WebElement kupon;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
