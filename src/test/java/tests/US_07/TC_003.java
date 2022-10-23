@@ -40,7 +40,7 @@ import utilities.TestBaseRapor;
             actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
             ReusableMethods reusable = new ReusableMethods();
 
-            ReusableMethods.jsExecutorScroll(spendinGoodPage.nodeJs);
+            ReusableMethods.jsExecutorScrool(spendinGoodPage.nodeJs);
             ReusableMethods.jsExecutorClick(spendinGoodPage.nodeJs);
 
             Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
