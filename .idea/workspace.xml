@@ -7,6 +7,8 @@
     <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,23 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TC_001">
+    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_12" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project5" />
       <extension name="coverage">
@@ -84,24 +103,6 @@
       <option name="PACKAGE_NAME" value="tests.US_15" />
       <option name="MAIN_CLASS_NAME" value="tests.US_15.TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_01.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_20" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_20.TC_01" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TC_001" />
+        <item itemvalue="TestNG.TC_001 (1)" />
         <item itemvalue="TestNG.TC_04.test1" />
         <item itemvalue="TestNG.TC_03.test1" />
         <item itemvalue="TestNG.TC_02.test1" />
-        <item itemvalue="TestNG.TC_01.test1" />
       </list>
     </recent_temporary>
   </component>
