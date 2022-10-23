@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -12,9 +14,7 @@ public class SpendinGoodPage {
     }
 
 
-
-
-  /* US_01 (17-67) */
+    /* US_01 (17-67) */
     //GİRİS İSLEMİ LOCATLERİ
     @FindBy(xpath = "//*[text()='Register']")
     public WebElement Register;
@@ -66,50 +66,50 @@ public class SpendinGoodPage {
 
 
     /*US_02(68-118)*/
-//US_02 Locatleri
-  @FindBy(xpath = "//*[@class='page-title']")
-  public WebElement MyAccountYazisi;
-  @FindBy(xpath = "//*[@id='username']")
-  public WebElement UserName;
-  @FindBy(xpath = "//*[@id='password']")
-  public WebElement PasswordSıgnIn;
 
-  @FindBy(xpath = "//*[@value='Sign In']")
-  public WebElement SıgnInButton;
-  @FindBy(xpath = "//*[text()='Log out']")
-  public WebElement LogOut;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[1]")
-  public WebElement OrdersGorunurOldugu;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[2]")
-  public WebElement DownloadsGorunurOldugu;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[3]")
-  public WebElement AdressGorunurOldugu;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[4]")
-  public WebElement AccountDetailsGorunurOldugu;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[5]")
-  public WebElement WishlistGorunurOldugu;
-  @FindBy(xpath = "(//*[@class='icon-box text-center'])[6]")
-  public WebElement LogoutGorunurOldugu;
-  @FindBy(xpath = "//*[text()='Dashboard']")
-  public WebElement Dashboard;
-  @FindBy(xpath = "//*[text()='Store Manager']")
-  public WebElement StoreManager;
-  @FindBy(xpath = "(//*[text()='Orders'])[1]")
-  public WebElement Orders;
-  @FindBy(xpath = "(//*[text()='Downloads'])[1]")
-  public WebElement Downloads;
-  @FindBy(xpath = "(//*[text()='Addresses'])[1]")
-  public WebElement Adresses;
-  @FindBy(xpath = "(//*[text()='Wishlist'])[2]")
-  public WebElement Wishlist;
-  @FindBy(xpath = "(//*[text()='Account details'])[1]")
-  public WebElement Accountdetails;
-  @FindBy(xpath = "//*[text()='Support Tickets']")
-  public WebElement SupportTickets;
-  @FindBy(xpath = "//*[text()='Followings']")
-  public WebElement Followings;
-  @FindBy(xpath = "(//*[text()='Logout'])[1]")
-  public WebElement LogoutDashboardAltinda;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,48 +117,48 @@ public class SpendinGoodPage {
 
 
     /*US_03(119-169 satır)*/
-    //US_03 LOCATLERİ
-    @FindBy(xpath = "//*[text()='Go Shop']")
-    public WebElement GoShopButtonu;
-    @FindBy(xpath = "//*[text()='Browse products']")
-    public WebElement BrowseProductsButtonu;
-    @FindBy(xpath = "//*[@id='product_cat']")
-    public WebElement AllCatagoriesButtonu;
 
-    @FindBy(xpath = "//*[@class='form-control']")
-    public WebElement SearchButtonu;
-    @FindBy(xpath = "//*[@class='single_add_to_cart_button button alt']")
-    public WebElement AdToCartButton;
 
-    @FindBy(xpath = "(//*[@class='w-icon-cart'])[1]")
-    public WebElement SepetButtonu;
 
-    @FindBy(xpath = "//*[@class='button checkout wc-forward']")
-    public WebElement CheckoutButton;
-    @FindBy(xpath = "//*[@id='billing_first_name']")
-    public WebElement FirstName;
-    @FindBy(xpath = "//*[@id='billing_last_name']")
-    public WebElement LastName;
-    @FindBy(xpath = "//*[@id='select2-billing_country-container']")
-    public WebElement CountryRegion ;
-    @FindBy(xpath = "//*[@id='billing_address_1']")
-    public WebElement StreetAddress;
-    @FindBy(xpath = "//*[@id='billing_postcode']")
-    public WebElement PostcodeZIP;
-    @FindBy(xpath = "//*[@id='billing_city']")
-    public WebElement TownCity;
-    @FindBy(xpath = "//*[@id='select2-billing_state-container']")
-    public WebElement Province;
-    @FindBy(xpath = "//*[@id='billing_phone']")
-    public WebElement Phone;
-    @FindBy(xpath = "//*[@id='billing_email']")
-    public WebElement EmailAddress;
-    @FindBy(xpath = "//*[@id='billing_company']")
-    public WebElement CompanyButton;
-    @FindBy(xpath = "//*[@id='order_comments']")
-    public WebElement OrderCommentsMesaj;
-    @FindBy(xpath = "//*[@id='place_order']")
-    public WebElement PlaceOrderButtonu;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -168,128 +168,6 @@ public class SpendinGoodPage {
 
 
     /*US_04(170-220 satır)*/
-// US_04 Locetleri
-    @FindBy(xpath = "//*[text()='View cart']")
-    public WebElement ViewCartButton;
-
-    @FindBy(xpath = "//*[@class='cart-information']")
-    public WebElement RakamMiktarVeToplamUrun;
-    @FindBy(xpath = "//*[@class='quantity-plus w-icon-plus']")
-    public WebElement ArtiTusu;
-    @FindBy(xpath = "//*[@class='quantity-minus w-icon-minus']")
-    public WebElement EksiTusu;
-    @FindBy(xpath = "//*[text()='Continue Shopping']")
-    public WebElement ContinueShoppingButtonu;
-    @FindBy(xpath = "(//*[@class='woocommerce-LoopProduct-link woocommerce-loop-product__link'])[3]")
-    public WebElement StockFazlasiUrun;
-    @FindBy(xpath = "//*[text()='Update cart']")
-    public WebElement UpdateCartButtonu;
-
-    @FindBy(xpath = "//*[text()='Apply coupon']")
-    public WebElement ApplyCouponButtonu;
-
-    @FindBy(xpath = "//*[@class='woocommerce-shipping-calculator']")
-    public WebElement ShoppingBilgileri;
-
-    @FindBy(xpath = "//*[@class='woocommerce-shipping-calculator']")
-    public WebElement ToplamTutar;
-    @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
-    public WebElement ProceedToCheckoutButtonu;
-    @FindBy(xpath = "//*[text()='Clear cart']")
-    public WebElement ClearCartButtonu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -391,65 +269,71 @@ public class SpendinGoodPage {
 
 
 
-    /*US_05(272-352 satır)*/
-    @FindBy (xpath ="//*[text()='Store Manager']")
-    public WebElement storeManager;
+  /*US_05(272-352 satır)*/
+  @FindBy (xpath ="//*[text()='Store Manager']")
+  public WebElement storeManager;
 
-    @FindBy (xpath ="(//*[@class='text'])[4]")
-    public WebElement storeManagerProducts;
+  @FindBy (xpath ="(//*[@class='text'])[4]")
+  public WebElement storeManagerProducts;
 
-    @FindBy (xpath ="//*[@style='width: 98px;']")
-    public WebElement status;
+  @FindBy (xpath ="//*[@style='width: 98px;']")
+  public WebElement status;
 
-    @FindBy (xpath ="//*[@style='width: 59px;']")
-    public WebElement stock;
+  @FindBy (xpath ="(//*[@class='sorting_disabled'])[3]")
+  public WebElement stock;
 
-    @FindBy (xpath ="//*[@style='width: 51px;']")
-    public WebElement price;
+  @FindBy (xpath ="(//*[@class='sorting'])[2]")
+  public WebElement price;
 
-    @FindBy (xpath ="//*[@class='sorting_desc']")
-    public WebElement date;
+  @FindBy (xpath ="(//*[@class='sorting'])[4]")
+  public WebElement date;
 
-    @FindBy (xpath ="//*[text()='Add New']")
-    public WebElement addNew;
+  @FindBy (xpath ="//*[text()='Add New']")
+  public WebElement addNew;
 
-    @FindBy (xpath ="//*[text()='Virtual']")
-    public WebElement virtual;
+  @FindBy (xpath ="//*[text()='Virtual']")
+  public WebElement virtual;
 
-    @FindBy (xpath ="//*[text()='Downloadable']")
-    public WebElement downloadable;
+  @FindBy (xpath ="//*[text()='Downloadable']")
+  public WebElement downloadable;
 
-    @FindBy (xpath ="//*[@id='pro_title']")
-    public WebElement productTitle;
+  @FindBy (xpath ="//*[@id='pro_title']")
+  public WebElement productTitle;
 
-    @FindBy (xpath ="//*[@id='regular_price']")
-    public WebElement priceMiktar;
+  @FindBy (xpath ="//*[@id='regular_price']")
+  public WebElement priceMiktar;
+  @FindBy (xpath ="//*[@id='featured_img_display']")
+  public WebElement urunIlkResimEkleme;
 
-    @FindBy (xpath ="//*[@id='featured_img_display']")
-    public WebElement urunIlkResimEkleme;
+  @FindBy (xpath ="//*[@id='menu-item-browse']")
+  public WebElement mediaLibrary;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[1]")
+  public WebElement eklenecekResim;
+  @FindBy (xpath ="(//*[@class='thumbnail'])[16]")
+  public WebElement eklenecekIkinciResim;
 
-    @FindBy (xpath ="//*[@id='__wp-uploader-id-1']")
-    public WebElement selectFiles;
+  @FindBy (xpath ="//*[@id='__wp-uploader-id-1']")
+  public WebElement selectFiles;
 
-    @FindBy (xpath ="//*[text()='Select']")
-    public WebElement select;
+  @FindBy (xpath ="//*[text()='Select']")
+  public WebElement select;
 
-    @FindBy (xpath ="//*[@id='gallery_img_gimage_0_display']")
-    public WebElement urunIkinciResimEkleme;
+  @FindBy (xpath ="//*[@id='gallery_img_gimage_0_display']")
+  public WebElement urunIkinciResimEkleme;
 
-    @FindBy (xpath ="(//*[text()='Add to Gallery'])[3]")
-    public WebElement addToGallery;
+  @FindBy (xpath ="(//*[text()='Add to Gallery'])[3]")
+  public WebElement addToGallery;
 
-    @FindBy (xpath ="//*[@id='excerpt_ifr']")
-    public WebElement shortDescription;
-    @FindBy (xpath ="//*[@id='description_ifr']")
-    public WebElement description;
-    @FindBy (xpath ="//*[@id='wcfm_products_simple_submit_button']")
-    public WebElement submit;
-    @FindBy (xpath ="//*[@id='featured_img_display']")
-    public WebElement ikinciResimGorunurluk;
-    @FindBy (xpath ="//*[@class='wcfm-message wcfm-error']")
-    public WebElement hataYazisi;
+  @FindBy (xpath ="//*[@id='excerpt_ifr']")
+  public WebElement shortDescription;
+  @FindBy (xpath ="//*[@id='description_ifr']")
+  public WebElement description;
+  @FindBy (xpath ="//*[@id='wcfm_products_simple_submit_button']")
+  public WebElement submit;
+  @FindBy (xpath ="//*[@id='featured_img_display']")
+  public WebElement ikinciResimGorunurluk;
+  @FindBy (xpath ="//*[@class='wcfm-message wcfm-error']")
+  public WebElement hataYazisi;
 
 
 
@@ -466,44 +350,48 @@ public class SpendinGoodPage {
 
 
 
+  /*US_06(353-403 satır)*/
+  @FindBy (xpath ="//*[@class='wcfm_product_manager_cats_checklist_fields']")
+  public WebElement categories;
+  @FindBy (xpath ="(//*[@style='visibility: visible;'])[6]")
+  public WebElement healthTik;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[41]")
+  public WebElement vitamin;
+  @FindBy (xpath ="//*[@value='225']")
+  public WebElement bestSeller;
+  @FindBy (xpath ="//*[@value='230']")
+  public WebElement electronics;
+  @FindBy (xpath ="//*[@value='228']")
+  public WebElement homeGarden;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[9]")
+  public WebElement booksMusicFilm;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[35]")
+  public WebElement healthBeauty;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[24]")
+  public WebElement fashion;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[70]")
+  public WebElement toys;
+  @FindBy (xpath ="//*[@name='product_cats[]']")
+  public WebElement accessories;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[65]")
+  public WebElement newArrivals;
+  @FindBy (xpath ="(//*[@name='product_cats[]'])[52]")
+  public WebElement indirimliUrunler;
 
 
 
 
 
 
-    /*US_06(353-403 satır)*/
-    @FindBy (xpath ="//*[@class='wcfm_product_manager_cats_checklist_fields']")
-    public WebElement categories;
-    @FindBy (xpath ="(//*[@name='product_cats[]'])[40]")
-    public WebElement vitamin;
 
-    @FindBy (xpath ="//*[@value='225']")
-    public WebElement bestSeller;
 
-    @FindBy (xpath ="//*[@value='230']")
-    public WebElement electronics;
 
-    @FindBy (xpath ="//*[@value='228']")
-    public WebElement homeGarden;
 
-    @FindBy (xpath ="//*[@value='232']")
-    public WebElement booksMusicFilm;
 
-    @FindBy (xpath ="//*[@value='235']")
-    public WebElement healthBeauty;
 
-    @FindBy (xpath ="//*[@value='344']")
-    public WebElement fashion;
 
-    @FindBy (xpath ="//*[@value='233']")
-    public WebElement toys;
 
-    @FindBy (xpath ="//*[@value='229']")
-    public WebElement accessories;
 
-    @FindBy (xpath ="//*[@value='226']")
-    public WebElement newArrivals;
 
 
 
@@ -513,37 +401,43 @@ public class SpendinGoodPage {
 
 
 
+  /*US_07(404-454 satır)*/
+  @FindBy (xpath ="//*[@value='35']")
+  public WebElement elegantAutoGroup;
 
+  @FindBy (xpath ="//*[@value='41']")
+  public WebElement greenGrace;
 
+  @FindBy (xpath ="//*[@value='46']")
+  public WebElement nodeJs;
 
+  @FindBy (xpath ="//*[@value='47']")
+  public WebElement ns8;
 
+  @FindBy (xpath ="//*[@value='50']")
+  public WebElement red;
 
+  @FindBy (xpath ="//*[@value='52']")
+  public WebElement skySuiteTech;
 
+  @FindBy (xpath ="//*[@value='55']")
+  public WebElement sterling;
+  @FindBy (xpath ="//*[@id='coupons_manage_restriction']")
+  public WebElement res;
+  @FindBy (xpath ="//*[@id='individual_use']")
+  public WebElement inv;
+  @FindBy (xpath ="(//*[@class='text'])[6]")
+  public WebElement kupon;
 
 
 
 
-    /*US_07(404-454 satır)*/
-    @FindBy (xpath ="//*[@value='35']")
-    public WebElement elegantAutoGroup;
 
-    @FindBy (xpath ="//*[@value='41']")
-    public WebElement greenGrace;
 
-    @FindBy (xpath ="//*[@value='46']")
-    public WebElement nodeJs;
 
-    @FindBy (xpath ="//*[@value='47']")
-    public WebElement ns8;
 
-    @FindBy (xpath ="//*[@value='50']")
-    public WebElement red;
 
-    @FindBy (xpath ="//*[@value='52']")
-    public WebElement skySuiteTech;
 
-    @FindBy (xpath ="//*[@value='55']")
-    public WebElement sterling;
 
 
 
@@ -558,23 +452,7 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*US_08(455-505 satır)*/
+  /*US_08(455-505 satır)*/
 
 
 
@@ -779,6 +657,32 @@ public class SpendinGoodPage {
 
 
     /*US_12(659-709 satır)*/
+@FindBy(xpath = "//p[@class='text-uppercase text-center mb-0']")
+public WebElement ordersClick;
+@FindBy(xpath = "//div[@class='woocommerce-MyAccount-content col-md-9 pt-2']")
+public WebElement orders;
+@FindBy(xpath = "//div[@class='woocommerce-MyAccount-content col-md-9 pt-2']")
+public WebElement donwnloadableproducts;
+@FindBy(xpath = "//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address']")
+public WebElement adresses;
+@FindBy(xpath = "(//div[@class='woocommerce-Address'])[1]")
+public WebElement billingAdress;
+@FindBy(xpath = "(//div[@class='woocommerce-Address'])[2]")
+public WebElement shippingAddress;
+@FindBy(xpath = "//*[text()='Account details']")
+public WebElement accountDetails;
+@FindBy(xpath = "//*[@id='account_first_name']")
+public WebElement firstName;
+@FindBy(xpath = "//*[@id='account_last_name']")
+public WebElement lastName;
+@FindBy(xpath = "//*[@id='account_display_name']")
+public WebElement displayName;
+@FindBy(xpath = "//*[@id='account_email']")
+public WebElement emailAddress;
+@FindBy(xpath = "(//button[@type='submit'])[2]")
+public WebElement saveChanges;
+@FindBy(xpath = "//div[@class='woocommerce-message alert alert-simple alert-icon alert-close-top alert-success']")
+public WebElement updateIsdisplay;
 
 
 
@@ -803,7 +707,27 @@ public class SpendinGoodPage {
 
 
 
+/*US_13(710-760 satır)*/
+    @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
+    public WebElement couponButton;
+  @FindBy(xpath = "//*[text()=\"Add New\"]")
+  public WebElement couponAddNewButton;
+  @FindBy(xpath = "//input[@id=\"title\"]")
+  public WebElement codeText;
+  @FindBy(xpath = "//textarea[@id='description']")
+  public WebElement descriptionText;
+  @FindBy(xpath = "//select[@id=\"discount_type\"]")
+  public WebElement discountType;
+  @FindBy(xpath = "//input[@id='coupon_amount']")
+  public WebElement couponAmount;
+  @FindBy(xpath = "//input[@id='expiry_date']")
+  public WebElement couponExpiryDate;
+  @FindBy(xpath = "//input[@id='free_shipping']")
+  public WebElement allowFreeShipping;
+  @FindBy(xpath = "//input[@id='show_on_store']")
+  public WebElement showOnStore;
 
+ // locate ler tamamlandılar
 
 
 
@@ -829,12 +753,38 @@ public class SpendinGoodPage {
 
 
 
-    /*US_13(710-760 satır)*/
 
 
 
 
 
+  /*US_14(761-811 satır)*/
+  @FindBy(xpath = "//input[@id='individual_use']")
+  public WebElement individualUseOnly;
+  @FindBy(xpath = "//input[@id='exclude_sale_items']")
+  public WebElement excludeSaleItems;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[1]")
+  public WebElement productsTextbox;
+  @FindBy(xpath = "(//input[@class='select2-search__field'])[2]")
+  public WebElement excludeProductsTextbox;
+  @FindBy(xpath = "(//*[text()='CCS-saat (watch unit)'])[1]")
+  public WebElement productsTextboxClick;
+  @FindBy(xpath = "(//*[text()=\"CCS-saat (watch unit)\"])[2]")
+  public WebElement excludeProductsTextboxClick;
+  @FindBy (xpath ="(//*[@class='select2-search__field'])[3]")
+  public WebElement productCategoriesTextbox;
+  @FindBy (xpath ="(//*[@class='select2-search__field'])[4]")
+  public WebElement excludeCategoriesTextbox;
+  @FindBy (xpath ="//*[@id='customer_email']")
+  public  WebElement emailRestrictions;
+  @FindBy(xpath = "//input[@id='minimum_amount']")
+  public WebElement minimumSpend;
+  @FindBy(xpath = "//input[@id='maximum_amount']")
+  public WebElement maximumSpend;
+  @FindBy(xpath = "(//li[text()='CCS-saat (watch unit)'])[2]")
+  public WebElement productsTextboxClick2;
+  @FindBy (xpath ="//*[@class='select2-results__option select2-results__option--highlighted']")
+  public WebElement selectThing;
 
 
 
@@ -859,9 +809,26 @@ public class SpendinGoodPage {
 
 
 
+  /*US_15(812-862 satır)*/
 
+  @FindBy (xpath ="//*[text()='kupa']")
+  public WebElement kupa;
+  @FindBy (xpath ="//*[@class='wcfm-content']")
+  public WebElement bosluk;
+  @FindBy (xpath ="//div[@id='coupons_manage_limit']")
+  public WebElement limitButton;
+  @FindBy (xpath ="//input[@id='usage_limit']")
+  public WebElement usageLimitPerCoupon;
+  @FindBy (xpath ="//input[@id='limit_usage_to_x_items']")
+  public WebElement limitUsageToXItems;
+  @FindBy (xpath ="//input[@id='usage_limit_per_user']")
+  public WebElement usageLimitPerUser;
 
+  @FindBy (xpath ="//*[@id='wcfm_coupon_manager_submit_button']")
+  public WebElement sonSubmit;
 
+  @FindBy (xpath ="//*[contains(text(), 'kupa')]")
+  public WebElement kupaLocate;
 
 
 
@@ -880,7 +847,6 @@ public class SpendinGoodPage {
 
 
 
-    /*US_14(761-811 satır)*/
 
 
 
@@ -894,15 +860,24 @@ public class SpendinGoodPage {
 
 
 
+  /*US_16(863-913 satır)*/
 
 
+  @FindBy(xpath ="//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--wcfm-store-manager']")
+  public WebElement StoreManager;
 
+  @FindBy(xpath = "(//*[@class='text'])[7]")
+       public WebElement Customerss;
 
 
 
 
+ @FindBy(xpath ="//tbody//tr//td[1]")
+  public List<WebElement> bütünisimlerlist;
 
 
+  //@FindBy(xpath ="//*[@id='piecetype']")
+  //public WebElement piecetype;
 
 
 
@@ -931,7 +906,6 @@ public class SpendinGoodPage {
 
 
 
-    /*US_15(812-862 satır)*/
 
 
 
@@ -944,102 +918,37 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*US_16(863-913 satır)*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*US_17(914-964 satır)*/
+  /*US_17(914-964 satır)*/
     @FindBy(xpath = "//*[text()='Sign In '] ")
     public WebElement SignIn;
-    @FindBy (xpath = "//*[@id='username']")
-    public WebElement userNameBox;
-    @FindBy (xpath = "//*[@id='password']")
-    public WebElement passwordBox;
-    @FindBy (xpath = "(//*[text()='Sign In'])[2]")
-    public WebElement SignInButton;
-    @FindBy(xpath = "(//*[text()='My Account'])[1]")
-    public WebElement myAccount;
-    @FindBy (xpath = "//*[text()='shipping and billing addresses']")
-    public WebElement shippingAndBillingAddresses;
-    @FindBy (xpath = "//*[text()='Edit Your Billing Address']")
-    public WebElement editYourBilling;
-    @FindBy (xpath = "//*[@id='billing_first_name']")
-    public WebElement billingName;
-    @FindBy (xpath = "//*[@id='select2-billing_country-container']")
-    public WebElement countryRegion;
-    @FindBy (xpath = "(//*[text()='Belgium'])[3]")
-    public WebElement belgium;
-    @FindBy (xpath = "//*[text()='Save address']")
-    public WebElement saveAddress;
+  @FindBy (xpath = "//*[@id='username']")
+  public WebElement userNameBox;
+  @FindBy (xpath = "//*[@id='password']")
+  public WebElement passwordBox;
+  @FindBy (xpath = "(//*[text()='Sign In'])[2]")
+  public WebElement SignInButton;
+  @FindBy(xpath = "(//*[text()='My Account'])[1]")
+  public WebElement myAccount;
+  @FindBy (xpath = "//*[text()='shipping and billing addresses']")
+  public WebElement shippingAndBillingAddresses;
+  @FindBy (xpath = "//*[text()='Edit Your Billing Address']")
+  public WebElement editYourBilling;
+  @FindBy (xpath = "//*[@id='billing_first_name']")
+  public WebElement billingFirstName;
+  @FindBy (xpath = "//*[@id='select2-billing_country-container']")
+  public WebElement billingCountryRegion;
+  @FindBy (xpath = "(//*[text()='Belgium'])[3]")
+  public WebElement belgium;
+  @FindBy (xpath = "//*[text()='Save address']")
+  public WebElement saveAddress;
+  @FindBy (xpath = "//*[text()='Edit Your Shipping Address']")
+  public WebElement editYourShipping;
+  @FindBy (xpath = "//*[@id='shipping_first_name']")
+  public WebElement shippingFirstName;
+  @FindBy (id = "select2-shipping_country-container")
+  public WebElement shippingCountryContainer;
+  @FindBy (xpath = "(//*[text()='Belgium'])[3]")
+  public WebElement shippingBelgium;
 
 
 
@@ -1060,15 +969,7 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-    /*US_18(965-1015 satır)*/
+  /*US_18(965-1015 satır)*/
 
 
 
@@ -1275,6 +1176,60 @@ public class SpendinGoodPage {
     /*US_22(1169- satır)*/
 
 
+
+  @FindBy(xpath = "//a[text()='Daily Deals']")
+  public WebElement dailyDeals;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/figure/a/img[2]")
+  public WebElement dailyDealsfirstItem;
+
+  @FindBy(xpath = "//*[text()='Sort By :']")
+  public WebElement sortBy;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']//option")
+  public List<WebElement> sortBySelectDDMList;
+
+  @FindBy(xpath = "//*[@class='orderby form-control']")
+  public WebElement ddm;
+
+  @FindBy(css = ".spendingGoodUrl")
+  public List<WebElement> DailyDealsAllProductList;
+
+  @FindBy(xpath = "no location")
+  public WebElement viewAll;
+
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/span/ins/span/bdi")
+  public WebElement mostExpensive;
+  @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[4]/ul/li[1]/div/div/div/div")
+  public WebElement cheapest;
+
+  @FindBy(xpath = "//span[@class='price']")
+  public List<WebElement> DailyDealsAllPricesList;
+
+  @FindBy(xpath = "//button[.='Sign In']")
+  public WebElement signInEnter;
+
+    @FindBy(xpath = "//*[text()='Store Manager']")
+    public WebElement storeManagerUS20;
+
+    @FindBy(xpath = "//table//tr//td[3]")
+    public List<WebElement> tableAllCommentList;
+
+    @FindBy(xpath = "//table//tr//td[4]")
+    public List<WebElement> tableAllRatingList;
+
+    @FindBy(xpath = "//table//tr//td[6]")
+    public List<WebElement> tableAllDateList;
+    @FindBy(xpath = "(//a[@href='https://spendinggood.com/store-manager/reviews/'])[1]")
+    public WebElement reviews;
+
+    @FindBy(css = "#add_new_product_dashboard")
+    public WebElement productReviews;
+
+    @FindBy(xpath = "//tfoot//th")
+    public List<WebElement> customerInfoList;
+
+    @FindBy(xpath = "//span[@class='price']")
+    public List<WebElement> visibleElementOnMainMenu;
 
 
 

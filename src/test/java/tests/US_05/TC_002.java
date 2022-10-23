@@ -10,8 +10,6 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
 
-import static org.testng.AssertJUnit.assertTrue;
-
 public class TC_002 extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     ReusableMethods reusable = new ReusableMethods();
