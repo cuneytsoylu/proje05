@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
+    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="2110200">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_003.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_004.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
