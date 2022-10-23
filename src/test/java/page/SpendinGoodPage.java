@@ -707,7 +707,9 @@ public WebElement updateIsdisplay;
 
 
 
-  /*US_13(710-760 satır)*/
+ /*US_13(710-760 satır)*/
+
+
     @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
     public WebElement couponButton;
   @FindBy(xpath = "//*[text()=\"Add New\"]")
@@ -756,9 +758,7 @@ public WebElement updateIsdisplay;
 
 
 
-
-
-  /*US_14(761-811 satır)*/
+ /*US_14(761-811 satır)*/
   @FindBy(xpath = "//input[@id='individual_use']")
   public WebElement individualUseOnly;
   @FindBy(xpath = "//input[@id='exclude_sale_items']")
