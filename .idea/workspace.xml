@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
+    <list default="true" id="ca2faadc-4967-4ab1-9370-ae2944505195" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" afterDir="false" />
@@ -79,17 +79,6 @@
       <recent name="C:\Users\Ramazan\IdeaProjects\project5\src\test\java\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001">
-    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_15" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_15.TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -169,18 +158,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001" />
-        <item itemvalue="TestNG.TC_001.testcase01" />
-        <item itemvalue="TestNG.TC_001 (1)" />
-        <item itemvalue="TestNG.TC_001.TC_001" />
-        <item itemvalue="TestNG.TC_01" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
+      <changelist id="ca2faadc-4967-4ab1-9370-ae2944505195" name="Changes" comment="" />
       <created>1666021283262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

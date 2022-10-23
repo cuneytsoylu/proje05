@@ -728,7 +728,7 @@ public WebElement updateIsdisplay;
   @FindBy(xpath = "//input[@id='show_on_store']")
   public WebElement showOnStore;
 
-
+ // locate ler tamamlandılar
 
 
 
@@ -867,11 +867,18 @@ public WebElement updateIsdisplay;
   @FindBy(xpath ="//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--wcfm-store-manager']")
   public WebElement StoreManager;
 
-  @FindBy(xpath ="(//*[@class='text'])[7]")
-       public WebElement Customers;
+  @FindBy(xpath = "(//*[@class='text'])[7]")
+       public WebElement Customerss;
 
 
 
+
+ @FindBy(xpath ="//tbody//tr//td[1]")
+  public List<WebElement> bütünisimlerlist;
+
+
+  //@FindBy(xpath ="//*[@id='piecetype']")
+  //public WebElement piecetype;
 
 
 
