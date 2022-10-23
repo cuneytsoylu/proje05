@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-
 import java.util.List;
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
@@ -14,8 +14,7 @@ public class SpendinGoodPage {
     }
 
 
-  /* US_01 (17-67) */
-
+    /* US_01 (17-67) */
     //GİRİS İSLEMİ LOCATLERİ
     @FindBy(xpath = "//*[text()='Register']")
     public WebElement Register;
@@ -65,7 +64,8 @@ public class SpendinGoodPage {
     public WebElement yenilemeTusu;
 
 
- /*US_02(68-118)*/
+
+    /*US_02(68-118)*/
 
 
 
@@ -707,9 +707,7 @@ public WebElement updateIsdisplay;
 
 
 
- /*US_13(710-760 satır)*/
-
-
+/*US_13(710-760 satır)*/
     @FindBy(xpath = "//span[@class='wcfmfa fa-gift']")
     public WebElement couponButton;
   @FindBy(xpath = "//*[text()=\"Add New\"]")
@@ -758,7 +756,9 @@ public WebElement updateIsdisplay;
 
 
 
- /*US_14(761-811 satır)*/
+
+
+  /*US_14(761-811 satır)*/
   @FindBy(xpath = "//input[@id='individual_use']")
   public WebElement individualUseOnly;
   @FindBy(xpath = "//input[@id='exclude_sale_items']")
@@ -911,10 +911,16 @@ public WebElement updateIsdisplay;
 
 
 
+
+
+
+
+
+
+
   /*US_17(914-964 satır)*/
     @FindBy(xpath = "//*[text()='Sign In '] ")
     public WebElement SignIn;
-
   @FindBy (xpath = "//*[@id='username']")
   public WebElement userNameBox;
   @FindBy (xpath = "//*[@id='password']")
@@ -962,7 +968,8 @@ public WebElement updateIsdisplay;
 
 
 
-/*US_18(965-1015 satır)*/
+
+  /*US_18(965-1015 satır)*/
 
 
 
@@ -1014,10 +1021,10 @@ public WebElement updateIsdisplay;
 
 
     /*US_19(1016-1066 satır)*/
-@FindBy (xpath = "(//*[@class='wcfm_menu_item '])[10]")
-  public WebElement followers;
-@FindBy (xpath = "//*[text()='No data in the table']")
-  public WebElement followerTable;
+
+
+
+
 
 
 
@@ -1116,22 +1123,22 @@ public WebElement updateIsdisplay;
 
 
     /*US_21(1118-1168 satır)*/
-@FindBy (xpath = "(//*[@class='wcfmfa fa-chart-pie'])[1]")
-  public WebElement reports;
-@FindBy (xpath = "//*[text()='Year']")
-  public WebElement year;
-@FindBy (xpath = "//*[@id='chart-placeholder-canvas']")
-  public WebElement table;
-@FindBy (xpath = "//*[text()='Last Month']")
-  public WebElement lastMonth;
-@FindBy (xpath = "//*[text()='This Month']")
-  public WebElement thisMonth;
-@FindBy (xpath = "//*[text()='Last 7 Days']")
-  public WebElement last7Days;
-@FindBy (xpath = "//*[@name='wcfm-date-range']")
-  public WebElement customBox;
-@FindBy (xpath = "//*[@class='apply-btn disabled']")
-  public WebElement closeButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
