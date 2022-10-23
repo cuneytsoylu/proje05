@@ -5,12 +5,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+
 public class SpendinGoodPage {
 
     public SpendinGoodPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
 
 
 
@@ -912,8 +912,8 @@ public WebElement couponAddNewButton;
 
 
     /*US_17(914-964 satır)*/
-    @FindBy(xpath = "//*[text()='Sign In '] ")
-    public WebElement SignIn;
+  @FindBy(xpath = "//*[text()='Sign In '] ")
+  public WebElement SignIn;
   @FindBy (xpath = "//*[@id='username']")
   public WebElement userNameBox;
   @FindBy (xpath = "//*[@id='password']")
@@ -1014,10 +1014,10 @@ public WebElement couponAddNewButton;
 
 
     /*US_19(1016-1066 satır)*/
-
-
-
-
+@FindBy (xpath = "(//*[@class='wcfm_menu_item '])[10]")
+  public WebElement followers;
+@FindBy (xpath = "//*[text()='No data in the table']")
+  public WebElement followerTable;
 
 
 
@@ -1116,22 +1116,22 @@ public WebElement couponAddNewButton;
 
 
     /*US_21(1118-1168 satır)*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@FindBy (xpath = "(//*[@class='wcfmfa fa-chart-pie'])[1]")
+  public WebElement reports;
+@FindBy (xpath = "//*[text()='Year']")
+  public WebElement year;
+@FindBy (xpath = "//*[@id='chart-placeholder-canvas']")
+  public WebElement table;
+@FindBy (xpath = "//*[text()='Last Month']")
+  public WebElement lastMonth;
+@FindBy (xpath = "//*[text()='This Month']")
+  public WebElement thisMonth;
+@FindBy (xpath = "//*[text()='Last 7 Days']")
+  public WebElement last7Days;
+@FindBy (xpath = "//*[@name='wcfm-date-range']")
+  public WebElement customBox;
+@FindBy (xpath = "//*[@class='apply-btn disabled']")
+  public WebElement closeButton;
 
 
 
