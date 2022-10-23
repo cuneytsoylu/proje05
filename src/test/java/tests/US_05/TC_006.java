@@ -15,7 +15,7 @@ public class TC_006 extends TestBaseRapor {
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void testCase01() {
+    public void TC001() {
         extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -48,4 +48,5 @@ public class TC_006 extends TestBaseRapor {
         extentTest.info("hata yazisi goruldu");
 
     }
+
 }

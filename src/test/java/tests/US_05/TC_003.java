@@ -2,6 +2,7 @@ package tests.US_05;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.SpendinGoodPage;
 import utilities.ConfigReader;
@@ -37,6 +38,9 @@ public class TC_003 extends TestBaseRapor {
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");
+
+      Assert.assertTrue(spendinGoodPage.productTitle.isDisplayed());
+       Assert.assertTrue(spendinGoodPage.priceMiktar.isDisplayed());
 
         spendinGoodPage.productTitle.click();
         spendinGoodPage.productTitle.sendKeys("cerceve");

@@ -422,12 +422,12 @@ public class SpendinGoodPage {
 
   @FindBy (xpath ="//*[@value='55']")
   public WebElement sterling;
-  @FindBy (xpath ="//*[@id='coupons_manage_restriction']")
-  public WebElement res;
-  @FindBy (xpath ="//*[@id='individual_use']")
-  public WebElement inv;
-  @FindBy (xpath ="(//*[@class='text'])[6]")
-  public WebElement kupon;
+
+
+
+
+
+
 
 
 
