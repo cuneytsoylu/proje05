@@ -4,9 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001" />
-        <item itemvalue="TestNG.TC_001 (1)" />
         <item itemvalue="TestNG.TC_04.test1" />
         <item itemvalue="TestNG.TC_03.test1" />
         <item itemvalue="TestNG.TC_02.test1" />
+        <item itemvalue="TestNG.TC_001 (1)" />
+        <item itemvalue="TestNG.TC_001" />
       </list>
     </recent_temporary>
   </component>
