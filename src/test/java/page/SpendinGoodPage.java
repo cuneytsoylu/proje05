@@ -1013,15 +1013,11 @@ public WebElement updateIsdisplay;
 
 
 
-
-
-
-
-
-
-
     /*US_19(1016-1066 satır)*/
-
+    @FindBy (xpath = "(//*[@class='wcfm_menu_item '])[10]")
+    public WebElement followers;
+    @FindBy (xpath = "//*[text()='No data in the table']")
+    public WebElement followerTable;
 
 
 
