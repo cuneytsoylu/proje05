@@ -17,6 +17,7 @@ import utilities.TestBaseRapor;
 public class TC_001 extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     Actions actions = new Actions(Driver.getDriver());
+
     public static void run2() throws InterruptedException {
         tests.US_14.TC_01 test = new tests.US_14.TC_01();
         test.TC001();
@@ -31,26 +32,34 @@ public class TC_001 extends TestBaseRapor {
     }
 
     @Test
-    public void TC_001() throws InterruptedException {
+    public void TC001() throws InterruptedException {
 
         run2();
-
-      ReusableMethods.jsExecutorScrool(spendinGoodPage.limit);
-ReusableMethods.jsExecutorClick(spendinGoodPage.limit);
-        spendinGoodPage.usageLimit.click();
-
-
-        actions.sendKeys("50").sendKeys(Keys.TAB).sendKeys("40")
-                .sendKeys(Keys.TAB).sendKeys("1+1+1").perform();
-
-        ReusableMethods.jsExecutorScrool(spendinGoodPage.sonSubmit);
-        ReusableMethods.jsExecutorClick(spendinGoodPage.sonSubmit);
-
-
-
-
-
-
-
+        ReusableMethods.jsExecutorScrool(spendinGoodPage.limitButton);
+        ReusableMethods.jsExecutorClick(spendinGoodPage.limitButton);
+        extentTest.pass("Limit butonuna tiklandi");
     }
+
+    @Test(dependsOnMethods = "TC001")
+    public void TC002(){
+     spendinGoodPage.usageLimitPerCoupon.sendKeys("1+1+1");
+extentTest.pass("Usage limit per coupon'a limit girildi");
+    }
+@Test(dependsOnMethods = "TC002")
+public void TC003() {
+        spendinGoodPage.limitUsageToXItems.sendKeys("10");
+        extentTest.pass("Limit usage to X items' limit degeri girildi");
+}
+
+    @Test(dependsOnMethods = "TC003")
+    public void TC004() {
+        actions.click(spendinGoodPage.usageLimitPerUser).sendKeys("1").keyDown(Keys.SHIFT).sendKeys("-").keyUp(Keys.SHIFT).sendKeys("1").perform();
+    }
+
+/*
+        ReusableMethods.jsExecutorScrool(spendinGoodPage.sonSubmit);
+        ReusableMethods.jsExecutorClick(spendinGoodPage.sonSubmit);*/
+
+
+
 }

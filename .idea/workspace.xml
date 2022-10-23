@@ -7,6 +7,19 @@
     <list default="true" id="ca2faadc-4967-4ab1-9370-ae2944505195" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/SpendinGoodPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_07/TC_007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_002.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_003.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_12/TC_004.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_14/TC_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_15/TC_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,18 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001.TC001" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_14.*" />
+          <option name="PATTERN" value="tests.US_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_14" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_14.TC_001" />
-      <option name="METHOD_NAME" value="TC001" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.US_12" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -109,6 +121,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC_001.testcase01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_12" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+      <option name="METHOD_NAME" value="testcase01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project5" />
       <extension name="coverage">
@@ -120,24 +150,6 @@
       <option name="PACKAGE_NAME" value="tests.US_14" />
       <option name="MAIN_CLASS_NAME" value="tests.US_14.TC_01" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_01.TC006" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_14" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_14.TC_01" />
-      <option name="METHOD_NAME" value="TC006" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">

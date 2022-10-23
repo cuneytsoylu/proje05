@@ -10,6 +10,8 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
 
+import java.io.IOException;
+
 public class TC_01 extends TestBaseRapor {
     public SpendinGoodPage spendinGoodPage;
     Actions actions= new Actions(Driver.getDriver());
@@ -44,13 +46,13 @@ public class TC_01 extends TestBaseRapor {
     public void TC003() {
         ReusableMethods.jsExecutorScrool(spendinGoodPage.individualUseOnly);
         ReusableMethods.jsExecutorClick(spendinGoodPage.individualUseOnly);
-        extentTest.pass("Individual use only TIKLA");
+        extentTest.pass("Individual use only checkbox'a tiklandi");
     }
     @Test(dependsOnMethods = "TC003")
     public void TC004() {
         ReusableMethods.jsExecutorScrool(spendinGoodPage.excludeSaleItems);
         ReusableMethods.jsExecutorClick(spendinGoodPage.excludeSaleItems);
-        extentTest.pass("Exclude sale items use only ");
+        extentTest.pass("Exclude sale items use only checkbox'a tiklandi ");
     }
     @Test(dependsOnMethods = "TC004")
     public void TC005() {
@@ -67,6 +69,10 @@ spendinGoodPage.productsTextboxClick.click();
         spendinGoodPage.excludeProductsTextbox.sendKeys("CCS-saat");
         Thread.sleep(4000);
         spendinGoodPage.productsTextboxClick2.click();
+        try {
+            ReusableMethods.getScreenshot("Spending GoodPage Exclude ile Products ayni urun eklendi");
+        } catch ( IOException e) {
+        }
         extentTest.fail("Exclude Products ile Products'ta ayni urun secildi");
     }
   @Test(dependsOnMethods = "TC006")
@@ -76,7 +82,7 @@ spendinGoodPage.productsTextboxClick.click();
       spendinGoodPage.productCategoriesTextbox.click();
       spendinGoodPage.productCategoriesTextbox.sendKeys("For Men");
       actions.moveToElement(spendinGoodPage.selectThing).click(spendinGoodPage.selectThing).perform();
-        extentTest.pass("Product categories kupon uygulanacak urunler secildi");
+        extentTest.pass("Product categories kupon uygulanacak urun kategorisi secildi");
     }
     @Test(dependsOnMethods = "TC007")
     public void TC008() {
@@ -84,6 +90,10 @@ spendinGoodPage.productsTextboxClick.click();
  spendinGoodPage.excludeCategoriesTextbox.click();
         spendinGoodPage.excludeCategoriesTextbox.sendKeys("For Men");
         actions.moveToElement(spendinGoodPage.selectThing).click(spendinGoodPage.selectThing).perform();
+        try {
+            ReusableMethods.getScreenshot("Spending GoodPage Exclude categories ile Product kategories ayni katagori eklendi");
+        } catch (IOException e) {
+        }
         extentTest.fail("Exclude categories ile Product categories'de ayni urun katagorileri secildi");
     }
 
@@ -92,6 +102,7 @@ spendinGoodPage.productsTextboxClick.click();
 
         spendinGoodPage.emailRestrictions.click();
         spendinGoodPage.emailRestrictions.sendKeys(ConfigReader.getProperty("cuneytEmail"));
-
+extentTest.pass("Email restrictions'a email girildi");
+        actions.sendKeys(Keys.PAGE_UP).sendKeys(Keys.PAGE_UP).perform();
     }
 }
