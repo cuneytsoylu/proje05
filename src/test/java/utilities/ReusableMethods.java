@@ -107,6 +107,7 @@ public class ReusableMethods {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
+
     public static void clickWithTimeOut(WebElement element, int timeout) {
         for (int i = 0; i < timeout; i++) {
             try {
@@ -188,4 +189,6 @@ public class ReusableMethods {
         // Belirli butonuna js ile click yapalim
         js.executeScript("arguments[0].click();",webElement);
     }
+
 }
+
