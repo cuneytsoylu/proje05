@@ -1,5 +1,6 @@
 package tests.US_16;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import page.SpendinGoodPage;
@@ -23,7 +24,15 @@ public class TC_001 {
         spend.myAccount.click();
         Thread.sleep(3000);
         spend.StoreManager.click();
-        Thread.sleep(3000);
-        spend.Customers.click();
+        Thread.sleep(8000);
+        spend.Customerss.click();
+
+        for (WebElement w:spend.bütünisimlerlist )
+
+        {
+            System.out.println(w.getText());
+
+        }
+
     }
 }
