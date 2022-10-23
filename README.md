@@ -1,5 +1,5 @@
 https://spendinggood.com/
-sitesinin testlerini gerçekleştirdiğimiz bu projemizde Test NG amework ile çalışıldı.Test NG framework unde OOP(object oriented programming) konseptine uyarak POM(page object model) dizayn modeli kullanılmıştır
+sitesinin testlerini gerçekleştirdiğimiz bu projemizde Test NG framework ile çalışıldı.Test NG framework unde OOP(object oriented programming) konseptine uyarak POM(page object model) dizayn modeli kullanılmıştır
 
 # page dosyasi
 
