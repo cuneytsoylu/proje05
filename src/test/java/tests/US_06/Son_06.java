@@ -1,18 +1,14 @@
 package tests.US_06;
 
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import page.SpendinGoodPage;
-import tests.US_05.TC_Son;
-import tests.US_13.TC_01;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
@@ -31,7 +27,8 @@ public class Son_06 extends TestBaseRapor {
     public void TC001() {
 
 
-        extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
+        extentTest = extentReports.createTest("Urun kategorilerinin belirlenebilmesi");
+
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
         spendinGoodPage.SignIn.click();
@@ -61,30 +58,30 @@ public class Son_06 extends TestBaseRapor {
 
     @Test(dependsOnMethods = "TC001")
     public void TC002() {
-        //actions.sendKeys(Keys.PAGE_DOWN).perform();
+
         Assert.assertTrue(spendinGoodPage.categories.isDisplayed());
-        extentTest.info("Categories bolumunun gorunurlugu dogrulandi");
+        extentTest.pass("Categories bolumunun gorunurlugu dogrulandi");
 
     }
 
     @Test(dependsOnMethods = "TC002")
     public void TC003() throws InterruptedException {
-      //  actions.sendKeys(Keys.PAGE_DOWN).perform();
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-      //  reusable.waitFor(2);
+
+
         Thread.sleep(2000);
 
 
-        ReusableMethods.jsExecutorScroll(spendinGoodPage.healthTik);
+        ReusableMethods.jsExecutorScrool(spendinGoodPage.healthTik);
         ReusableMethods.jsExecutorClick(spendinGoodPage.healthTik);
-       // spendinGoodPage.healthTik.click();
+
         spendinGoodPage.vitamin.click();
         Thread.sleep(2000);
 
         extentTest.info("vitamin kategorisi tiklandi");
         Thread.sleep(2000);
         Assert.assertTrue(spendinGoodPage.vitamin.isEnabled());
-        extentTest.info("vitamin kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("vitamin kategorisinin gorunurlugu dogrulandi");
+
     }
 
     @Test(dependsOnMethods = "TC003")
@@ -97,7 +94,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("bestSeller kategorisi tiklandi");
         Thread.sleep(2000);
         Assert.assertTrue(spendinGoodPage.bestSeller.isEnabled());
-        extentTest.info("bestSeller kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("bestSeller kategorisinin gorunurlugu dogrulandi");
 
 
     }
@@ -105,7 +102,7 @@ public class Son_06 extends TestBaseRapor {
     @Test(dependsOnMethods = "TC004")
     public void TC005() throws InterruptedException {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
         reusable.waitFor(2);
 
         Thread.sleep(2000);
@@ -113,13 +110,13 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("electronics kategorisi tiklandi");
         Thread.sleep(2000);
         Assert.assertTrue(spendinGoodPage.electronics.isEnabled());
-        extentTest.info("electronics kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("electronics kategorisinin gorunurlugu dogrulandi");
     }
 
     @Test(dependsOnMethods = "TC005")
     public void TC006() throws InterruptedException {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
         reusable.waitFor(2);
 
         Thread.sleep(2000);
@@ -127,7 +124,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("homeGarden kategorisi tiklandi");
         Thread.sleep(2000);
         Assert.assertTrue(spendinGoodPage.homeGarden.isEnabled());
-        extentTest.info("homeGarden kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("homeGarden kategorisinin gorunurlugu dogrulandi");
     }
 
     @Test(dependsOnMethods = "TC006")
@@ -136,7 +133,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("Indirimli urunler kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.indirimliUrunler.isEnabled());
-        extentTest.info("homeGarden kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("homeGarden kategorisinin gorunurlugu dogrulandi");
 
 
     }
@@ -147,7 +144,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("booksMusicFilm kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.booksMusicFilm.isEnabled());
-        extentTest.info("booksMusicFilm kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("booksMusicFilm kategorisinin gorunurlugu dogrulandi");
 
     }
 
@@ -157,7 +154,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("healthBeauty kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.healthBeauty.isEnabled());
-        extentTest.info("healthBeauty kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("healthBeauty kategorisinin gorunurlugu dogrulandi");
     }
 
     @Test(dependsOnMethods = "TC009")
@@ -166,7 +163,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("fashion kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.fashion.isEnabled());
-        extentTest.info("fashion kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("fashion kategorisinin gorunurlugu dogrulandi");
     }
 
     @Test(dependsOnMethods = "TC010")
@@ -175,7 +172,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("toys kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.toys.isEnabled());
-        extentTest.info("toys kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("toys kategorisinin gorunurlugu dogrulandi");
     }
 
     @Test(dependsOnMethods = "TC011")
@@ -184,7 +181,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("accessories kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.accessories.isEnabled());
-        extentTest.info("accessories kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("accessories kategorisinin gorunurlugu dogrulandi");
 
     }
 
@@ -194,7 +191,7 @@ public class Son_06 extends TestBaseRapor {
         extentTest.info("newArrivals kategorisine tiklandi");
 
         Assert.assertTrue(spendinGoodPage.newArrivals.isEnabled());
-        extentTest.info("newArrivals kategorisinin gorunurlugu dogrulandi");
+        extentTest.pass("newArrivals kategorisinin gorunurlugu dogrulandi");
     }
 
     public static void run() throws InterruptedException {
