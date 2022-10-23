@@ -9,7 +9,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
-public class TC_006 extends TestBaseRapor {
+public class TC_006N extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     ReusableMethods reusable = new ReusableMethods();
     Actions actions = new Actions(Driver.getDriver());
