@@ -657,31 +657,32 @@ public class SpendinGoodPage {
 
 
     /*US_12(659-709 satır)*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@FindBy(xpath = "//p[@class='text-uppercase text-center mb-0']")
+public WebElement ordersClick;
+@FindBy(xpath = "//div[@class='woocommerce-MyAccount-content col-md-9 pt-2']")
+public WebElement orders;
+@FindBy(xpath = "//div[@class='woocommerce-MyAccount-content col-md-9 pt-2']")
+public WebElement donwnloadableproducts;
+@FindBy(xpath = "//*[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address']")
+public WebElement adresses;
+@FindBy(xpath = "(//div[@class='woocommerce-Address'])[1]")
+public WebElement billingAdress;
+@FindBy(xpath = "(//div[@class='woocommerce-Address'])[2]")
+public WebElement shippingAddress;
+@FindBy(xpath = "//*[text()='Account details']")
+public WebElement accountDetails;
+@FindBy(xpath = "//*[@id='account_first_name']")
+public WebElement firstName;
+@FindBy(xpath = "//*[@id='account_last_name']")
+public WebElement lastName;
+@FindBy(xpath = "//*[@id='account_display_name']")
+public WebElement displayName;
+@FindBy(xpath = "//*[@id='account_email']")
+public WebElement emailAddress;
+@FindBy(xpath = "(//button[@type='submit'])[2]")
+public WebElement saveChanges;
+@FindBy(xpath = "//div[@class='woocommerce-message alert alert-simple alert-icon alert-close-top alert-success']")
+public WebElement updateIsdisplay;
 
 
 
@@ -815,14 +816,14 @@ public class SpendinGoodPage {
   public WebElement kupa;
   @FindBy (xpath ="//*[@class='wcfm-content']")
   public WebElement bosluk;
-  @FindBy (xpath ="//*[@id='coupons_manage_limit']")
-  public WebElement limit;
-  @FindBy (xpath ="//*[@id='usage_limit']")
-  public WebElement usageLimit;
-  @FindBy (xpath ="//*[@id='limit_usage_to_x_items']")
-  public WebElement usageToX;
-  @FindBy (xpath ="//*[@id='usage_limit_per_user']")
-  public WebElement userLimit;
+  @FindBy (xpath ="//div[@id='coupons_manage_limit']")
+  public WebElement limitButton;
+  @FindBy (xpath ="//input[@id='usage_limit']")
+  public WebElement usageLimitPerCoupon;
+  @FindBy (xpath ="//input[@id='limit_usage_to_x_items']")
+  public WebElement limitUsageToXItems;
+  @FindBy (xpath ="//input[@id='usage_limit_per_user']")
+  public WebElement usageLimitPerUser;
 
   @FindBy (xpath ="//*[@id='wcfm_coupon_manager_submit_button']")
   public WebElement sonSubmit;

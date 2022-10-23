@@ -40,7 +40,7 @@ public class TC_007 extends TestBaseRapor {
        // actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods reusable = new ReusableMethods();
 
-        ReusableMethods.jsExecutorScroll(spendinGoodPage.sterling);
+        ReusableMethods.jsExecutorScrool(spendinGoodPage.sterling);
         ReusableMethods.jsExecutorClick(spendinGoodPage.sterling);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
