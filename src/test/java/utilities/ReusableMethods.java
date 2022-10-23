@@ -207,4 +207,6 @@ public class ReusableMethods {
 
     public static void jsExecutorScroll(WebElement elegantAutoGroup) {
     }
+
 }
+

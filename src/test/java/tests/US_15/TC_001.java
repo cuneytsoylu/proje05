@@ -35,6 +35,7 @@ public class TC_001 extends TestBaseRapor {
     public void TC001() throws InterruptedException {
 
         run2();
+        extentTest = extentReports.createTest("Kupon Olusturma Testi", "kupon olusturabilme");
         ReusableMethods.jsExecutorScrool(spendinGoodPage.limitButton);
         ReusableMethods.jsExecutorClick(spendinGoodPage.limitButton);
         extentTest.pass("Limit butonuna tiklandi");
