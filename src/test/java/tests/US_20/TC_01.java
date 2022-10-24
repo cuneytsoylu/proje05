@@ -100,6 +100,10 @@ public class TC_01 extends TestBaseRapor {
 
         extentTest.pass("musteri bilgileri basariliyla goruntulendi");
 
+        Driver.closeDriver();
+
+
+
 
     }
 }
