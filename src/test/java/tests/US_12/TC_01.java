@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import page.SpendinGoodPage;
 import utilities.*;
 
-public class TC_001 extends TestBaseRapor {
+public class TC_01 extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     Actions actions=new Actions(Driver.getDriver());
     @Test

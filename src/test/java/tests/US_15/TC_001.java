@@ -14,6 +14,8 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
 
+import java.io.IOException;
+
 public class TC_001 extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     Actions actions = new Actions(Driver.getDriver());
@@ -43,7 +45,7 @@ public class TC_001 extends TestBaseRapor {
 
     @Test(dependsOnMethods = "TC001")
     public void TC002(){
-     spendinGoodPage.usageLimitPerCoupon.sendKeys("1+1+1");
+     spendinGoodPage.usageLimitPerCoupon.sendKeys("1");
 extentTest.pass("Usage limit per coupon'a limit girildi");
     }
 @Test(dependsOnMethods = "TC002")
@@ -54,12 +56,26 @@ public void TC003() {
 
     @Test(dependsOnMethods = "TC003")
     public void TC004() {
-        actions.click(spendinGoodPage.usageLimitPerUser).sendKeys("1").keyDown(Keys.SHIFT).sendKeys("-").keyUp(Keys.SHIFT).sendKeys("1").perform();
+        spendinGoodPage.usageLimitPerUser.sendKeys("50");
+        actions.click(spendinGoodPage.usageLimitPerUser).keyDown(Keys.SHIFT).sendKeys("$").keyUp(Keys.SHIFT).perform();
+        extentTest.info("Usage limit per user text'inde kullanim limiti belirlendi");
+        spendinGoodPage.submitButton.click();
+        extentTest.info("olusturulan Coupon kodunu onaylamak icin submit butonuna tiklandi");
+        Assert.assertTrue(spendinGoodPage.success.isDisplayed());
+
+
+        extentTest.fail("Coupon basariyla olusturuldu");
+
     }
 
-/*
-        ReusableMethods.jsExecutorScrool(spendinGoodPage.sonSubmit);
-        ReusableMethods.jsExecutorClick(spendinGoodPage.sonSubmit);*/
+@Test(dependsOnMethods = "TC004")
+    public void TC005(){
+        spendinGoodPage.couponButton.click();
+    try {
+        ReusableMethods.getScreenshot("Spending GoodPage coupon basariyla olusturuldu");
+    } catch ( IOException e) {
+    }
+}
 
 
 
