@@ -86,9 +86,7 @@ public class Son_06 extends TestBaseRapor {
 
     @Test(dependsOnMethods = "TC003")
     public void TC004() throws InterruptedException {
-        //actions.sendKeys(Keys.PAGE_DOWN).perform();
-        //JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-        //reusable.waitFor(2);
+
 
         spendinGoodPage.bestSeller.click();
         extentTest.info("bestSeller kategorisi tiklandi");

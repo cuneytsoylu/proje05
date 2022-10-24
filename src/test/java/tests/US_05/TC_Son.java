@@ -46,13 +46,12 @@ public class TC_Son extends TestBaseRapor {
        // actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.jsExecutorClick(spendinGoodPage.storeManagerProducts);
 
-        //spendinGoodPage.storeManagerProducts.click();
+
         extentTest.info("Products butonuna tiklandi");
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
 
 
@@ -76,7 +75,7 @@ public class TC_Son extends TestBaseRapor {
 
         ReusableMethods.jsExecutorClick(spendinGoodPage.productTitle);
 
-       // spendinGoodPage.productTitle.click();
+
         spendinGoodPage.productTitle.sendKeys("cerceve");
         extentTest.info("Product Title bilgisi girildi");
         reusable.waitFor(2);
@@ -85,20 +84,15 @@ public class TC_Son extends TestBaseRapor {
         extentTest.info("Price bilgisi girildi");
         reusable.waitFor(2);
 
-
-       // ReusableMethods.getActions().click(spendinGoodPage.productTitle).sendKeys("cerceve").sendKeys(Keys.TAB).
-      //          sendKeys("10").perform();
-
         ReusableMethods.waitFor(3);
         extentTest.info("User product title ve satis miktari girebildi");
         extentTest.pass("US_005 TC03 PASSED");
 
     }
-
     @Test(dependsOnMethods = "TC003")
     public void TC004() throws InterruptedException {
         ReusableMethods.jsExecutorClick(spendinGoodPage.urunIlkResimEkleme);
-       // spendinGoodPage.urunIlkResimEkleme.click();
+
         extentTest.info("ilk urun ekleme bolumune tiklandi");
         spendinGoodPage.mediaLibrary.click();
         extentTest.info("mediaLibrary butonuna tiklandi");
@@ -106,6 +100,7 @@ public class TC_Son extends TestBaseRapor {
         extentTest.info("eklenecek ilk resme tiklandi");
         spendinGoodPage.select.click();
         extentTest.info("Select butonuna tiklandi");
+        Thread.sleep(1500);
 
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", spendinGoodPage.urunIkinciResimEkleme);
@@ -147,8 +142,6 @@ public class TC_Son extends TestBaseRapor {
 
 
     }
-
-
 
     public static void run() throws InterruptedException {
         TC_Son test = new TC_Son();

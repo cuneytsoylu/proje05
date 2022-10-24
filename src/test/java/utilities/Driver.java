@@ -24,7 +24,7 @@ public class Driver {
         if(driver==null) {  //eger chromeDriver'imiz acik degilse acacak yoksa acmayacak
             driver=new ChromeDriver();  // sayfa aciksa obje 2. defa olusmaz
         }
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         return driver;

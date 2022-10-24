@@ -911,9 +911,6 @@ public WebElement updateIsdisplay;
 
 
 
-
-
-
     /*US_17(914-964 satır)*/
     @FindBy(xpath = "//*[text()='Sign In '] ")
     public WebElement SignIn;
