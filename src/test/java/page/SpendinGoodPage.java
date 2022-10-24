@@ -65,52 +65,6 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*US_02(68-118)*/
 
 
@@ -600,7 +554,7 @@ public class SpendinGoodPage {
 
 
 
-    /*US_10(557-607 satır)*/
+   /*US_10(557-607 satır)*/
 
 
     @FindBy(xpath ="//*[@id='wcfm_products_manage_form_attribute_head']" )
@@ -611,10 +565,10 @@ public class SpendinGoodPage {
 
     @FindBy(xpath ="//*[@id='attributes_is_active_2']")
     public WebElement size;
-    @FindBy(xpath ="//span[@class='select2-results']")
+    @FindBy(xpath ="(//*[@class='select2-selection__rendered'])[2]")
     public WebElement activeColor;
-
-
+    @FindBy(xpath = "(//*[@class='select2-selection__rendered'])[3]")
+    public WebElement activeSize;
 
 
 
@@ -659,6 +613,10 @@ public class SpendinGoodPage {
 
     @FindBy(xpath ="//*[@id='piecetype']")
     public WebElement piecetype;
+    @FindBy(xpath = "//*[@id='unitpercart']")
+    public WebElement unitperpiece;
+    @FindBy(xpath = "//*[@id='minorderqtytr']")
+    public WebElement minorderqtytr;
 
 
 
@@ -697,11 +655,7 @@ public class SpendinGoodPage {
 
 
 
-
-
-
-
-
+    
     /*US_12(659-709 satır)*/
 
 
