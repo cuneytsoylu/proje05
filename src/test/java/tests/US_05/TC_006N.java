@@ -1,5 +1,4 @@
-package tests.US_06;
-
+package tests.US_05;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -10,13 +9,13 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
-public class TC_009 extends TestBaseRapor {
+public class TC_006N extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     ReusableMethods reusable = new ReusableMethods();
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void testCase01() throws InterruptedException {
+    public void TC001() {
         extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -34,23 +33,20 @@ public class TC_009 extends TestBaseRapor {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.storeManagerProducts.click();
         extentTest.info("Products butonuna tiklandi");
-        spendinGoodPage.addNew.click();
-        reusable.waitFor(3);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+        spendinGoodPage.addNew.click();
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        extentTest.info("addNew butonuna tiklandi");
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
 
+        spendinGoodPage.submit.click();
+        extentTest.info("submit butonuna tiklandi");
+        reusable.waitFor(2);
 
-        spendinGoodPage.fashion.click();
-        extentTest.info("fashion kategorisine tiklandi");
-
-        Assert.assertTrue(spendinGoodPage.fashion.isEnabled());
-        extentTest.info("fashion kategorisinin gorunurlugu dogrulandi");
-
-
-
-
-
-
+        Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
+        extentTest.info("hata yazisi goruldu");
 
     }
+
 }
