@@ -6,6 +6,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import org.testng.Assert;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,12 +20,12 @@ public class ReusableMethods {
     //===================dosya yolu sayfa ismi satir hucre girince datayi verir
     // Bir method olusturalim
     // dosya yolu, sayfa ismi ve satir , hucre indexini verince hucre bilgisini dondursun.
-    public static Cell hucreGetir(String path,String sayfaIsmi, int satirIndex, int hucreIndex){
-        Cell cell=null;
+    public static Cell hucreGetir(String path, String sayfaIsmi, int satirIndex, int hucreIndex) {
+        Cell cell = null;
         try {
             FileInputStream fis = new FileInputStream(path);
-            Workbook workbook= WorkbookFactory.create(fis);
-            cell=workbook.getSheet(sayfaIsmi).getRow(satirIndex).getCell(hucreIndex);
+            Workbook workbook = WorkbookFactory.create(fis);
+            cell = workbook.getSheet(sayfaIsmi).getRow(satirIndex).getCell(hucreIndex);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -44,6 +46,7 @@ public class ReusableMethods {
         FileUtils.copyFile(source, finalDestination);
         return target;
     }
+
     //========Switching Window=====//
     public static void switchToWindow(String targetTitle) {
         String origin = Driver.getDriver().getWindowHandle();
@@ -55,11 +58,13 @@ public class ReusableMethods {
         }
         Driver.getDriver().switchTo().window(origin);
     }
+
     //========Hover Over=====//
     public static void hover(WebElement element) {
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(element).perform();
     }
+
     //==========Return a list of string given a list of Web Element====////
     public static List<String> getElementsText(List<WebElement> list) {
         List<String> elemTexts = new ArrayList<>();
@@ -70,6 +75,7 @@ public class ReusableMethods {
         }
         return elemTexts;
     }
+
     //========Returns the Text of the element given an element locator==//
     public static List<String> getElementsText(By locator) {
         List<WebElement> elems = Driver.getDriver().findElements(locator);
@@ -81,6 +87,7 @@ public class ReusableMethods {
         }
         return elemTexts;
     }
+
     //   HARD WAIT WITH THREAD.SLEEP
 //  waitFor(5);  => waits for 5 second
     public static void waitFor(int sec) {
@@ -90,19 +97,23 @@ public class ReusableMethods {
             e.printStackTrace();
         }
     }
+
     //===============Explicit Wait==============//
     public static WebElement waitForVisibility(WebElement element, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
+
     public static WebElement waitForVisibility(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
     public static WebElement waitForClickablility(WebElement element, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
+
     public static WebElement waitForClickablility(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
@@ -118,6 +129,7 @@ public class ReusableMethods {
             }
         }
     }
+
     public static void waitForPageToLoad(long timeout) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver driver) {
@@ -133,6 +145,7 @@ public class ReusableMethods {
                     "Timeout waiting for Page Load Request to complete after " + timeout + " seconds");
         }
     }
+
     //======Fluent Wait====//
     public static WebElement fluentWait(final WebElement webElement, int timeout) {
         //FluentWait<WebDriver> wait = new FluentWait<WebDriver>(Driver.getDriver()).withTimeout(timeinsec, TimeUnit.SECONDS).pollingEvery(timeinsec, TimeUnit.SECONDS);
@@ -149,44 +162,51 @@ public class ReusableMethods {
 
 
     //==========Excelli map'e aktarip kullanma methodu
-    public static Map<String,String> mapOlustur(String path, String sayfaAdi) {
-        Map<String,String> excelMap=new TreeMap<>();
+    public static Map<String, String> mapOlustur(String path, String sayfaAdi) {
+        Map<String, String> excelMap = new TreeMap<>();
 
-        Workbook workbook=null;
+        Workbook workbook = null;
         // ilk adim excelde istenen sayfaya ulasmak
         try {
-            FileInputStream fis=new FileInputStream(path);
-            workbook=WorkbookFactory.create(fis);
+            FileInputStream fis = new FileInputStream(path);
+            workbook = WorkbookFactory.create(fis);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        int satirSayisi=workbook.getSheet(sayfaAdi).getLastRowNum();
-        String key="";
-        String value="";
+        int satirSayisi = workbook.getSheet(sayfaAdi).getLastRowNum();
+        String key = "";
+        String value = "";
 
-        for (int i = 0; i <=satirSayisi ; i++) {
+        for (int i = 0; i <= satirSayisi; i++) {
             // ikinci adim tablodaki hucreleri map'a uygun hale donusturmek
-            key=workbook.getSheet(sayfaAdi).getRow(i).getCell(0).toString();
-            value=workbook.getSheet(sayfaAdi).getRow(i).getCell(1).toString()+
-                    ", "+workbook.getSheet(sayfaAdi).getRow(i).getCell(2).toString()+
-                    ", "+workbook.getSheet(sayfaAdi).getRow(i).getCell(3).toString();
+            key = workbook.getSheet(sayfaAdi).getRow(i).getCell(0).toString();
+            value = workbook.getSheet(sayfaAdi).getRow(i).getCell(1).toString() +
+                    ", " + workbook.getSheet(sayfaAdi).getRow(i).getCell(2).toString() +
+                    ", " + workbook.getSheet(sayfaAdi).getRow(i).getCell(3).toString();
             // ucuncu adim key-value haline getirdigimiz satirlari map'a eklemek
-            excelMap.put(key,value);
+            excelMap.put(key, value);
         }
 
         return excelMap;
     }
-    public static void jsExecutorScrool(WebElement webElement){
+
+    public static void jsExecutorScrool(WebElement webElement) {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         // Belirli webElement element seviyesine scroll
-        js.executeScript("arguments[0].scrollIntoView(true);",webElement);
+        js.executeScript("arguments[0].scrollIntoView(true);", webElement);
     }
 
-    public static void jsExecutorClick(WebElement webElement){
+    public static void jsExecutorClick(WebElement webElement) {
 
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         // Belirli butonuna js ile click yapalim
-        js.executeScript("arguments[0].click();",webElement);
+        js.executeScript("arguments[0].click();", webElement);
     }
+
+
+    public static void jsExecutorScroll(WebElement elegantAutoGroup) {
+    }
+
 }
+

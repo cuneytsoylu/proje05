@@ -82,15 +82,6 @@ public class TC_01 extends TestBaseRapor {
         extentTest.pass("Show On Store tiklandi");
     }
 
-    public static void run() {
-        TC_01 test = new TC_01();
-        test.TC001();
-        test.TC002();
-        test.TC003();
-        test.TC004();
-        test.TC005();
-        test.TC006();
-        test.TC007();
-    }
+
 }
 

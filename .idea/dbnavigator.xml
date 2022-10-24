@@ -19,7 +19,6 @@
       <format value="EXCEL" />
       <charset value="windows-1254" />
       <charset value="windows-1254" />
-
     </export-instructions>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">

@@ -9,14 +9,13 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
-
-public class TC_003 extends TestBaseRapor {
+public class TC_006N extends TestBaseRapor {
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     ReusableMethods reusable = new ReusableMethods();
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void testCase01() {
+    public void TC001() {
         extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -38,18 +37,16 @@ public class TC_003 extends TestBaseRapor {
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");
-
-      Assert.assertTrue(spendinGoodPage.productTitle.isDisplayed());
-       Assert.assertTrue(spendinGoodPage.priceMiktar.isDisplayed());
-
-        spendinGoodPage.productTitle.click();
-        spendinGoodPage.productTitle.sendKeys("cerceve");
-        extentTest.info("Product Title bilgisi girildi");
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
-        spendinGoodPage.priceMiktar.click();
-        spendinGoodPage.priceMiktar.sendKeys("10");
-        extentTest.info("Price bilgisi girildi");
+
+        spendinGoodPage.submit.click();
+        extentTest.info("submit butonuna tiklandi");
         reusable.waitFor(2);
+
+        Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
+        extentTest.info("hata yazisi goruldu");
 
     }
+
 }

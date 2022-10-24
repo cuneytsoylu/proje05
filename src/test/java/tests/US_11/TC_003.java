@@ -1,4 +1,4 @@
-package tests.US_05;
+package tests.US_11;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -11,17 +11,21 @@ import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
 
 public class TC_003 extends TestBaseRapor {
+
+
+
     SpendinGoodPage spendinGoodPage = new SpendinGoodPage();
     ReusableMethods reusable = new ReusableMethods();
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void testCase01() {
-        extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
+    public void tc01() {
+
+        extentTest = extentReports.createTest("Attribut ozellikler", "Ozelliklerin belirlenebildigi goruntulendi");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
         spendinGoodPage.SignIn.click();
-        extentTest.info("signIn butonuna tiklandi");
+        extentTest.info("signIn sekmeksine tiklandi");
         spendinGoodPage.userNameBox.sendKeys(ConfigReader.getProperty("ortakVendorEmail"));
         spendinGoodPage.passwordBox.sendKeys(ConfigReader.getProperty("ortakVendorPassword"));
         spendinGoodPage.SignInButton.click();
@@ -30,26 +34,28 @@ public class TC_003 extends TestBaseRapor {
         spendinGoodPage.myAccount.click();
         extentTest.info("My Account butonuna tiklandi");
         spendinGoodPage.storeManager.click();
-        extentTest.info("Store Manager butonuna tiklandi");
+        extentTest.info("Store Manager secenegi tiklandi");
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.storeManagerProducts.click();
-        extentTest.info("Products butonuna tiklandi");
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        extentTest.info("Products secenegi tiklandi");
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-        extentTest.info("addNew butonuna tiklandi");
+        extentTest.info("add new butonuna tiklandi");
+        reusable.waitFor(3);
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        reusable.waitFor(3);
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        reusable.waitFor(3);
+        spendinGoodPage.toptanurungosterme.click();
+        extentTest.info("Toptan urun gosterme  butonuna tiklandi");
+        reusable.waitFor(3);
+        spendinGoodPage.minorderqtytr.click();
+        extentTest.info("minorderqtytr urun gosterme butonuna tikland");
 
-      Assert.assertTrue(spendinGoodPage.productTitle.isDisplayed());
-       Assert.assertTrue(spendinGoodPage.priceMiktar.isDisplayed());
+        Assert.assertTrue(spendinGoodPage.minorderqtytr.isDisplayed());
+        extentTest.info("Minimum siparis miktarini belirlenbildigi dogruşandi");
 
-        spendinGoodPage.productTitle.click();
-        spendinGoodPage.productTitle.sendKeys("cerceve");
-        extentTest.info("Product Title bilgisi girildi");
-        reusable.waitFor(2);
-        spendinGoodPage.priceMiktar.click();
-        spendinGoodPage.priceMiktar.sendKeys("10");
-        extentTest.info("Price bilgisi girildi");
-        reusable.waitFor(2);
 
     }
+
 }
