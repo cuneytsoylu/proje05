@@ -785,8 +785,8 @@ public WebElement updateIsdisplay;
   public WebElement productsTextboxClick2;
   @FindBy (xpath ="//*[@class='select2-results__option select2-results__option--highlighted']")
   public WebElement selectThing;
-
-
+@FindBy(xpath = "//a[@class='wcfm_menu_item active']")
+public WebElement couponsButton;
 
 
 

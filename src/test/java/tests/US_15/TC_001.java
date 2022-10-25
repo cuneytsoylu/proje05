@@ -14,6 +14,8 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBaseRapor;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 public class TC_001 extends TestBaseRapor {
@@ -55,26 +57,35 @@ public void TC003() {
 }
 
     @Test(dependsOnMethods = "TC003")
-    public void TC004() {
-        spendinGoodPage.usageLimitPerUser.sendKeys("50");
-        actions.click(spendinGoodPage.usageLimitPerUser).keyDown(Keys.SHIFT).sendKeys("$").keyUp(Keys.SHIFT).perform();
+    public void TC004() throws AWTException {
+        Robot robot = new Robot();
+
+        spendinGoodPage.usageLimitPerUser.sendKeys("1");
+        robot.keyPress(KeyEvent.VK_SHIFT);
+        robot.keyPress(KeyEvent.VK_4);
+      spendinGoodPage.usageLimitPerUser.sendKeys("2");
+        robot.keyRelease(KeyEvent.VK_4);
+        robot.keyRelease(KeyEvent.VK_SHIFT);
         extentTest.info("Usage limit per user text'inde kullanim limiti belirlendi");
         spendinGoodPage.submitButton.click();
         extentTest.info("olusturulan Coupon kodunu onaylamak icin submit butonuna tiklandi");
         Assert.assertTrue(spendinGoodPage.success.isDisplayed());
-
-
         extentTest.fail("Coupon basariyla olusturuldu");
-
+        actions.sendKeys(Keys.PAGE_UP).sendKeys(Keys.PAGE_UP).perform();
+        ReusableMethods.waitFor(1);
     }
 
 @Test(dependsOnMethods = "TC004")
     public void TC005(){
-        spendinGoodPage.couponButton.click();
+        ReusableMethods.jsExecutorScrool(spendinGoodPage.couponsButton);
+ReusableMethods.jsExecutorClick(spendinGoodPage.couponsButton);
+    ReusableMethods.waitFor(3);
+
     try {
         ReusableMethods.getScreenshot("Spending GoodPage coupon basariyla olusturuldu");
     } catch ( IOException e) {
     }
+    extentTest.pass("olusturulan Coupon goruntulendi");
 }
 
 
