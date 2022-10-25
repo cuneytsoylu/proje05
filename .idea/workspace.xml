@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="44c2e4e0-e5c6-4fff-9351-eceb187a79af" name="Changes" comment="24.10.2022">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,17 +78,17 @@
       <recent name="tests.US_22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001">
-    <configuration name="TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
+  <component name="RunManager" selected="TestNG.TC_02.test1">
+    <configuration name="TC_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_12.*" />
+          <option name="PATTERN" value="tests.US_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_12" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_12.TC_001" />
+      <option name="PACKAGE_NAME" value="tests.US_20" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_20.TC_01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -93,17 +96,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project5" />
+    <configuration name="TC_01.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.US_15.*" />
+          <option name="PATTERN" value="tests.US_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.US_15" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_15.TC_001" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.US_22" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_01" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_01.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.US_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.US_20" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_20.TC_01" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,24 +142,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.US_22" />
       <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_02" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_03.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.US_22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.US_22" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_22.TC_03" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -166,18 +170,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_04.test1" />
-        <item itemvalue="TestNG.TC_03.test1" />
         <item itemvalue="TestNG.TC_02.test1" />
-        <item itemvalue="TestNG.TC_001 (1)" />
-        <item itemvalue="TestNG.TC_001" />
+        <item itemvalue="TestNG.TC_01.test1 (1)" />
+        <item itemvalue="TestNG.TC_01" />
+        <item itemvalue="TestNG.TC_01.test1" />
+        <item itemvalue="TestNG.TC_04.test1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54bf443b-9d6c-4356-b2a8-1762d3358999" name="Changes" comment="" />
+      <changelist id="44c2e4e0-e5c6-4fff-9351-eceb187a79af" name="Changes" comment="24.10.2022" />
       <created>1666021283262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
