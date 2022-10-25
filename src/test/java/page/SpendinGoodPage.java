@@ -785,8 +785,8 @@ public WebElement updateIsdisplay;
   public WebElement productsTextboxClick2;
   @FindBy (xpath ="//*[@class='select2-results__option select2-results__option--highlighted']")
   public WebElement selectThing;
-
-
+@FindBy(xpath = "//a[@class='wcfm_menu_item active']")
+public WebElement couponsButton;
 
 
 
@@ -823,14 +823,12 @@ public WebElement updateIsdisplay;
   public WebElement limitUsageToXItems;
   @FindBy (xpath ="//input[@id='usage_limit_per_user']")
   public WebElement usageLimitPerUser;
-
   @FindBy (xpath ="//*[@id='wcfm_coupon_manager_submit_button']")
-  public WebElement sonSubmit;
-
+  public WebElement submitButton;
   @FindBy (xpath ="//*[contains(text(), 'kupa')]")
   public WebElement kupaLocate;
-
-
+@FindBy(xpath = "//div[@class='wcfm-message wcfm-success']")
+public WebElement success;
 
 
 
