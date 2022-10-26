@@ -17,11 +17,11 @@ public class TC_Son07 extends TestBaseRapor {
     public Actions actions = new Actions(Driver.getDriver());
     public Select select;
     ReusableMethods reusable = new ReusableMethods();
-
+    JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
 
 
     @Test
-    public void TC001() {
+    public void TC001() throws InterruptedException {
         extentTest = extentReports.createTest("Urun brandlerini belirleyebilme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -40,12 +40,14 @@ public class TC_Son07 extends TestBaseRapor {
         spendinGoodPage.storeManagerProducts.click();
         extentTest.info("Products butonuna tiklandi");
         spendinGoodPage.addNew.click();
-         actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        Thread.sleep(1500 );
+
 
     }
 
     @Test(dependsOnMethods = "TC001")
-    public void TC002() {
+    public void TC002() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
 
         ReusableMethods.jsExecutorScrool(spendinGoodPage.elegantAutoGroup);
@@ -53,70 +55,74 @@ public class TC_Son07 extends TestBaseRapor {
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("elegantAutoGroup brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(500 );
     }
 
     @Test(dependsOnMethods = "TC002")
-    public void TC003() {
+    public void TC003() throws InterruptedException {
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.greenGrace);
         ReusableMethods.jsExecutorClick(spendinGoodPage.greenGrace);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("greenGrace brandi oldugu dogrulandi ve tiklandi");
-
+        Thread.sleep(500 );
     }
 
     @Test(dependsOnMethods = "TC003")
-    public void TC004() {
+    public void TC004() throws InterruptedException {
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.nodeJs);
         ReusableMethods.jsExecutorClick(spendinGoodPage.nodeJs);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("nodeJs brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(1000 );
+        actions.sendKeys(Keys.PAGE_UP).perform();
 
     }
 
     @Test(dependsOnMethods = "TC004")
-    public void TC005() {
+    public void TC005() throws InterruptedException {
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.ns8);
         ReusableMethods.jsExecutorClick(spendinGoodPage.ns8);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("ns8 brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(1000 );
     }
 
     @Test(dependsOnMethods = "TC005")
-    public void TC006() {
+    public void TC006() throws InterruptedException {
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.red);
         ReusableMethods.jsExecutorClick(spendinGoodPage.red);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("red brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(1000 );
     }
     @Test(dependsOnMethods = "TC006")
-    public void TC007() {
+    public void TC007() throws InterruptedException {
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.skySuiteTech);
         ReusableMethods.jsExecutorClick(spendinGoodPage.skySuiteTech);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("skySuiteTech brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(1000 );
     }
     @Test(dependsOnMethods = "TC007")
-    public void TC008() {
+    public void TC008() throws InterruptedException {
+        actions.sendKeys(Keys.PAGE_UP ).perform();
         ReusableMethods.jsExecutorScrool(spendinGoodPage.sterling);
         ReusableMethods.jsExecutorClick(spendinGoodPage.sterling);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("sterling brandi oldugu dogrulandi ve tiklandi");
+        Thread.sleep(3000 );
     }
-    public static void run() {
-        TC_Son07 test = new TC_Son07();
-        test.TC001();
-        test.TC002();
-        test.TC003();
-        test.TC004();
-        test.TC005();
-        test.TC006();
-        test.TC007();
-}
 
 }
+

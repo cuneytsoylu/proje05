@@ -45,7 +45,7 @@ public class TC_006N extends TestBaseRapor {
         reusable.waitFor(2);
 
         Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
-        extentTest.info("hata yazisi goruldu");
+        extentTest.pass("hata yazisi goruldu");
 
     }
 
