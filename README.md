@@ -52,11 +52,11 @@ NEGATİVE SMOKE TEST
 ##  SPENDINGGOOD
 
 
-![](../../Desktop/FULL/Ss2.png)
+![img_1.png](img_1.png)
 
-![](../../Desktop/FULL/ss.png)
+![img_2.png](img_2.png)
 
 
-![](../../Desktop/FULL/ss1.png)
+![img_3.png](img_3.png)
 
 ![img.png](img.png)
