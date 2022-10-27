@@ -65,6 +65,10 @@ public void TC003() {
         robot.keyPress(KeyEvent.VK_4);
       spendinGoodPage.usageLimitPerUser.sendKeys("2");
         robot.keyRelease(KeyEvent.VK_4);
+        try {
+            ReusableMethods.getScreenshot("textbox'a integer harici deger girildi");
+        } catch ( IOException e) {
+        }
         robot.keyRelease(KeyEvent.VK_SHIFT);
         extentTest.info("Usage limit per user text'inde kullanim limiti belirlendi");
         spendinGoodPage.submitButton.click();
