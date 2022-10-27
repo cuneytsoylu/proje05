@@ -46,7 +46,7 @@ public class Son_06 extends TestBaseRapor {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.storeManagerProducts.click();
         extentTest.info("Products butonuna tiklandi");
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
+       // actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");

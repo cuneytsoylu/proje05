@@ -41,7 +41,7 @@ public class TC_Son07 extends TestBaseRapor {
         extentTest.info("Products butonuna tiklandi");
         spendinGoodPage.addNew.click();
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-        Thread.sleep(1500 );
+        Thread.sleep(1000 );
 
 
     }
@@ -49,6 +49,8 @@ public class TC_Son07 extends TestBaseRapor {
     @Test(dependsOnMethods = "TC001")
     public void TC002() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+
+
 
         ReusableMethods.jsExecutorScrool(spendinGoodPage.elegantAutoGroup);
         ReusableMethods.jsExecutorClick(spendinGoodPage.elegantAutoGroup);
@@ -61,6 +63,8 @@ public class TC_Son07 extends TestBaseRapor {
     @Test(dependsOnMethods = "TC002")
     public void TC003() throws InterruptedException {
 
+
+
         ReusableMethods.jsExecutorScrool(spendinGoodPage.greenGrace);
         ReusableMethods.jsExecutorClick(spendinGoodPage.greenGrace);
 
@@ -71,14 +75,12 @@ public class TC_Son07 extends TestBaseRapor {
 
     @Test(dependsOnMethods = "TC003")
     public void TC004() throws InterruptedException {
-
-        ReusableMethods.jsExecutorScrool(spendinGoodPage.nodeJs);
+ ReusableMethods.jsExecutorScrool(spendinGoodPage.nodeJs);
         ReusableMethods.jsExecutorClick(spendinGoodPage.nodeJs);
 
         Assert.assertTrue(spendinGoodPage.storeManagerProducts.isDisplayed());
         extentTest.pass("nodeJs brandi oldugu dogrulandi ve tiklandi");
         Thread.sleep(1000 );
-        actions.sendKeys(Keys.PAGE_UP).perform();
 
     }
 
