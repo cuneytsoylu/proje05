@@ -56,6 +56,6 @@ public abstract class TestBaseRapor {
 
     @AfterClass
     public void afterClass() {
-       // Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
