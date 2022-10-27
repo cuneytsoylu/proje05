@@ -15,7 +15,7 @@ public class TC_006N extends TestBaseRapor {
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void TC001() {
+    public void TC001() throws InterruptedException {
         extentTest = extentReports.createTest("Prudoct Title ve Price goruntuleme", "Product Title ve price bilgisi ekleme");
         Driver.getDriver().get(ConfigReader.getProperty("spendingGoodUrl"));
         extentTest.info("spendingGoodUrl sitesine gidildi");
@@ -46,6 +46,7 @@ public class TC_006N extends TestBaseRapor {
 
         Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
         extentTest.pass("hata yazisi goruldu");
+        Thread.sleep(2000);
 
     }
 

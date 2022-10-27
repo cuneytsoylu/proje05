@@ -39,6 +39,7 @@ public class TC_Son extends TestBaseRapor {
         spendinGoodPage.SignInButton.click();
         extentTest.info("email ve password girilip signin butonuna basildi");
         reusable.waitFor(2);
+
         spendinGoodPage.myAccount.click();
         extentTest.info("My Account butonuna tiklandi");
         spendinGoodPage.storeManager.click();
@@ -48,37 +49,27 @@ public class TC_Son extends TestBaseRapor {
 
 
         extentTest.info("Products butonuna tiklandi");
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
+      // actions.sendKeys(Keys.PAGE_DOWN).perform();
         spendinGoodPage.addNew.click();
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
+      //  actions.sendKeys(Keys.PAGE_DOWN).perform();
         extentTest.info("addNew butonuna tiklandi");
         reusable.waitFor(2);
-        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+       actions.sendKeys(Keys.PAGE_DOWN).perform();
         reusable.waitFor(2);
+
+
+
     }
+
     @Test(dependsOnMethods = "TC001")
-    public void TC002(){
-        spendinGoodPage.submit.click();
-        extentTest.info("submit butonuna tiklandi");
-        reusable.waitFor(2);
-
-        Assert.assertTrue(spendinGoodPage.hataYazisi.isDisplayed());
-        extentTest.pass("hata yazisi goruldu");
-
-        Driver.getDriver().navigate().refresh();
-
-
-    }
-
-    @Test(dependsOnMethods = "TC002")
-    public void TC003() {
+    public void TC002() {
         Assert.assertTrue(spendinGoodPage.virtual.isDisplayed());
         Assert.assertTrue(spendinGoodPage.downloadable.isDisplayed());
         extentTest.info("virtual ve downloadable butonlarının gorunurlugu dogrulandi");
     }
 
-    @Test(dependsOnMethods = "TC003")
-    public void TC004() {
+    @Test(dependsOnMethods = "TC002")
+    public void TC003() throws InterruptedException {
         //Urun eklerken product title ve satis miktari bilgileri girilebilmeli
 
         ReusableMethods.waitFor(3);
@@ -95,15 +86,15 @@ public class TC_Son extends TestBaseRapor {
         spendinGoodPage.priceMiktar.click();
         spendinGoodPage.priceMiktar.sendKeys("10");
         extentTest.info("Price bilgisi girildi");
-        reusable.waitFor(2);
+       Thread.sleep(2000);
 
         ReusableMethods.waitFor(3);
         extentTest.info("User product title ve satis miktari girebildi");
         extentTest.pass("US_005 TC03 PASSED");
 
     }
-    @Test(dependsOnMethods = "TC004")
-    public void TC005() throws InterruptedException {
+    @Test(dependsOnMethods = "TC003")
+    public void TC004() throws InterruptedException {
         ReusableMethods.jsExecutorClick(spendinGoodPage.urunIlkResimEkleme);
 
         extentTest.info("ilk urun ekleme bolumune tiklandi");
@@ -128,8 +119,8 @@ public class TC_Son extends TestBaseRapor {
 
     }
 
-    @Test(dependsOnMethods = "TC005")
-    public void TC006() throws InterruptedException {
+    @Test(dependsOnMethods = "TC004")
+    public void TC005() throws InterruptedException {
         ReusableMethods.waitFor(2);
         WebElement frame = Driver.getDriver().findElement(By.xpath("//iframe[@id='excerpt_ifr']"));
         frame.click();
@@ -163,7 +154,7 @@ public class TC_Son extends TestBaseRapor {
         test.TC003();
         test.TC004();
         test.TC005();
-        test.TC006();
+
 
 
     }
