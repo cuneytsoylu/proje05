@@ -49,3 +49,13 @@ SMOKE TEST
 
 NEGATİVE SMOKE TEST
 
+##  SPENDINGGOOD
+
+<img height="400" src="D:/MOVEAVİ/SS/login1.png" width="800"/>
+
+![](test-output/Screenshots/Spending GoodPage Exclude categories ile Product kategories ayni katagori eklendi20221027055038.png)
+
+![](test-output/Screenshots/TC00420221027054635.png)
+
+
+![img.png](img.png)
